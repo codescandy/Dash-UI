@@ -1,0 +1,38 @@
+//
+// Extend from Bootstrap
+//
+// Border width
+
+
+
+.border-white-color-40 {
+    border-color: rgba(233, 236, 239, 0.4) !important;
+}
+
+.border-dashed {
+    border: 1px dashed $gray-300 !important;
+}
+
+// divider
+
+.divider {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+&::after, &::before {
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;
+    border-top: .0625rem solid $gray-400;
+    content: "";
+    margin-top: .0625rem;
+}
+
+&::before {
+    margin-right: 1.5rem;
+}
+
+&::after {
+    margin-left: 1.5rem;
+}
+}

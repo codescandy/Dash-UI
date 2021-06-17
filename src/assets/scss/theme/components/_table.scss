@@ -1,0 +1,33 @@
+//
+// Extend from bootstrap
+//
+
+// Table
+
+
+.table.table-dark thead th {
+  background-color: $gray-800;
+}
+.table .thead-light th{
+  color: $gray-600;
+}
+
+
+
+
+.table thead th {
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing:  0.05em;
+  font-size: 0.75rem;
+  background-color: $gray-100;
+  color: $gray-600;
+  border-bottom: 0px;
+}
+
+
+.table th,
+.table td {
+  padding: 0.75rem 1.5rem;
+}

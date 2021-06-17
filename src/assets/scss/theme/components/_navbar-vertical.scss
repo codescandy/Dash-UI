@@ -1,0 +1,161 @@
+// Navbar Vertcial
+
+.navbar-vertical {
+  height: 100vh;
+  margin-left: -17rem;
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 250px;
+  padding: 0rem;
+  background-color: $gray-900;
+  border-right: 1px solid $gray-900;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+
+  .slimScrollDiv {
+    height: 100% !important;
+    overflow-y: auto;
+  }
+  .nav-scroller {
+    height: 100% !important;
+    overflow-y: auto;
+  }
+  .navbar-brand {
+    padding: 1rem 1.5rem 1.5rem;
+    margin-right: 0px;
+    display: block;
+    img {
+      height: 1.875rem;
+    }
+  }
+  .navbar-heading {
+      color: $gray-600;
+      padding: 1rem 1.5rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.125rem;
+      font-weight: 600;
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        padding: 0.5rem 1.5rem;
+        display: flex;
+        align-items: center;
+        color: $gray-500;
+        font-weight: 500;
+        line-height: 1.8;
+        -webkit-transition: all 0.5s;
+        white-space: nowrap;
+        transition: all 0.5s;
+        &:hover {
+          color: $gray-200;
+        }
+
+        &:hover .nav-icon {
+          color: $gray-200;
+          opacity: 1;
+        }
+
+        &.active {
+          color: $gray-200;
+
+        }
+
+        &.active .nav-icon {
+          color: $gray-200;
+          opacity: 1;
+        }
+      }
+      .nav-link[data-bs-toggle="collapse"]{
+        position: relative;
+        &:after {
+          display: block;
+          content: "";
+          background: url(../fonts/feather-icons/icons/chevron-down.svg);
+          font-family: Feather;
+          margin-left: auto;
+          transition: 0.5s ease;
+          position: absolute;
+          right: 1.5rem;
+          height: 24px;
+          width: 24px;
+          -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+          transform: scale(0.7);
+        }
+
+      }
+
+
+    }
+    .nav-icon {
+      opacity: 0.6;
+      font-size: .875rem;
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+    .sub-nav-icon{
+      font-size: .35rem;
+      margin-right: .5rem;
+
+    }
+    .nav {
+      .nav-item {
+        .nav-link {
+          color: $gray-500;
+          padding: 0.25rem 3rem;
+          &:hover {
+            color: $white;
+          }
+          &.active {
+            color: $white;
+          }
+        }
+        .nav {
+          .nav-item {
+            .nav-link {
+              color: $gray-500;
+              padding: 0.25rem 3.5rem;
+
+              &:hover {
+                color: $white;
+              }
+              &.active {
+                color: $white;
+              }
+            }
+            .nav {
+              .nav-item {
+                .nav-link {
+                  color: $gray-500;
+                  padding: 0.25rem 4.2rem;
+                  &:hover {
+                    color: $white;
+                  }
+                  &.active {
+                    color: $white;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.collapse.in {
+    display: block;
+
+
+
+
+}

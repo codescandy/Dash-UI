@@ -1,0 +1,23 @@
+//
+// Extended from bootstrap
+//
+// Position
+@each $size,
+$value in $position-values {
+    .top-#{$size} {
+        top: $value;
+    }
+    .right-#{$size} {
+        right: $value;
+    }
+    .bottom-#{$size} {
+        bottom: $value;
+    }
+    .left-#{$size} {
+        left: $value;
+    }
+}
+
+.z-index-1030 {
+    z-index: 1030;
+}

@@ -1,0 +1,140 @@
+// Bottom line nav
+.nav-line-bottom {
+  border-bottom: 1px solid $gray-200;
+  .nav-item {
+    .nav-link {
+      color: $gray-600;
+      border-radius: 0px;
+      margin-bottom: -1px;
+      padding: 1.2rem;
+      font-weight: 500;
+      @media (max-width: 576px) {
+        padding: 0.8rem;
+      }
+      &.active {
+        color: $primary;
+        background-color: transparent;
+        border-bottom: 1px solid $primary;
+        @media (max-width: 576px) {
+          padding: 0.747rem;
+        }
+      }
+      &:hover {
+        color: $primary;
+        background-color: transparent;
+        border-bottom: 1px solid $primary;
+      }
+      .badge {
+        line-height: 1.4;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+// Nav line bottom tab (.nav-lb-tab)
+.nav-lb-tab {
+  border-bottom: 1px solid $gray-300;
+  @media (max-width: 576px) {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .nav-item {
+    margin: 0rem 1.5rem;
+    .nav-link {
+      border-bottom: 2px solid transparent;
+      border-radius: 0px;
+      padding: 16px 0px;
+      margin-bottom: -1px;
+      font-weight: 500;
+      color: $gray-600;
+      white-space: nowrap;
+      &.active {
+        background-color: transparent;
+        border-bottom: 2px solid $primary;
+        color: $primary;
+      }
+      &:hover {
+        background-color: transparent;
+        border-bottom: 2px solid $primary;
+        color: $primary;
+      }
+    }
+  }
+}
+
+// Nav line top tab. (.nav-lt-tab)
+.nav-lt-tab {
+  border-top: 1px solid $gray-300;
+  @media (max-width: 768px) {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .nav-item {
+    margin: 0rem 1rem;
+    margin-top: -0.0625rem;
+    .nav-link {
+      border-top: 2px solid transparent;
+      border-radius: 0px;
+      padding: 1rem 0rem;
+      font-weight: 500;
+
+      color: $gray-600;
+      &.active {
+        background-color: transparent;
+        border-top: 2px solid $primary;
+        color: $primary;
+      }
+      &:hover {
+        background-color: transparent;
+        border-top: 2px solid $primary;
+        color: $primary;
+      }
+    }
+  }
+}
+
+// nav email
+
+.nav-email-list {
+  .nav-item {
+    .nav-link {
+      color: $gray-600;
+      padding: 6px 10px;
+      border-radius: 8px;
+      margin-bottom: 4px;
+      font-weight: 500;
+
+      &:hover {
+        background-color: $gray-100;
+        color: $primary;
+      }
+      &.active {
+        background-color: $gray-100;
+        color: $primary;
+      }
+    }
+  }
+
+  .nav-text {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+}

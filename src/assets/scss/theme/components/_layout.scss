@@ -1,0 +1,182 @@
+// layouts
+
+
+
+// Header
+
+.header {
+    .navbar {
+      padding: 0.625rem 1.5rem;
+      #nav-toggle {
+        font-size: 20px;
+        color: $gray-700;
+        line-height: 0.5;
+      }
+      .navbar-nav {
+        @media (max-width: 576px) {
+          flex-direction: row;
+        }
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          flex-direction: row;
+        }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+
+
+
+
+  // Layouts
+
+
+  // Dashboard wrapper
+
+  #db-wrapper {
+    overflow-x: hidden;
+    display: flex;
+  }
+
+
+
+  // Dashboard page content
+
+  #page-content {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin-left: 15.625rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+  }
+
+
+
+
+  // Dashboard navbar vertical toggled
+
+  #db-wrapper.toggled .navbar-vertical {
+    margin-left: 0;
+  }
+
+
+
+  // Dashboard page content toggled
+
+  #db-wrapper.toggled #page-content {
+    margin-left: 0;
+  }
+
+  #db-wrapper.toggled #page-content .inner-wrapper-sticky {
+   left:20px !important;
+  }
+
+  #db-wrapper.toggled #page-content .inner-wrapper-sticky .setting-nav {
+
+      width: 354px;
+
+      @media(max-width: 1024px){
+        width: 204px;
+      }
+  }
+
+
+
+  // Media query for layout
+
+  @media (max-width: 576px) {
+    #page-content {
+      margin-left: 0rem;
+    }
+
+    #db-wrapper.toggled {
+      #page-content {
+        margin-left: 15.6875rem;
+      }
+    }
+  }
+
+
+  @media (min-width: 768px) {
+    .navbar-vertical {
+      margin-left: 0rem;
+    }
+    #page-content {
+      min-width: 0rem;
+      width: 100%;
+    }
+    #db-wrapper.toggled .navbar-vertical {
+      margin-left: -16rem;
+    }
+  }
+
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    #page-content {
+      margin-left: 0rem;
+    }
+    #db-wrapper.toggled {
+      #page-content {
+        margin-left: 15.6875rem;
+      }
+    }
+  }
+
+
+
+
+
+  // Copy Button
+
+.copy-button {
+  cursor: pointer;
+  border: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  color: $primary;
+  background-color: #fff;
+  position: absolute;
+  top: 0.875rem;
+  right: 0.625rem;
+  border-radius: 0.25rem;
+  border: 1px solid $primary;
+  &:hover {
+    outline: 0;
+    background-color: $white;
+    color: $primary;
+  }
+  &:focus {
+    outline: 0;
+    background-color: $white;
+    color: $primary;
+  }
+  &:active {
+    outline: 0;
+    background-color: $white;
+    color: $primary;
+  }
+}
+.content-section {
+  padding: 2.5rem;
+}
+.content-section--paste {
+  margin-top: 3.75rem;
+  background-color: $gray-200;
+  h1 {
+    font-size: 0.75rem;
+    color: $gray-600;
+    text-transform: uppercase;
+  }
+}
+.copy-content {
+  position: relative;
+}
+.copy-content-height {
+  overflow: auto;
+}

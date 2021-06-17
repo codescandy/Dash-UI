@@ -1,0 +1,25 @@
+//
+// Extended from bootstrap
+//
+// form
+
+.form-control-flush {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-left: 0px;
+  border-radius: 0px;
+
+  &:focus {
+    color: #495057;
+    background-color: #fff;
+    border-bottom-color: $gray-400;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.form-label {
+  color: $gray-900;
+  font-weight: 500;
+}

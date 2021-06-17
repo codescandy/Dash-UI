@@ -1,0 +1,235 @@
+
+//
+// Extended from bootstrap dropdown
+//
+
+// Dropdown menu
+.dropdown-menu {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: $gray-700;
+    border: none;
+    box-shadow: 0px 0px 1px rgba(60, 66, 87, 0.05), 0px 3px 6px rgba(60, 66, 87, 0.1), 0px 9px 24px rgba(60, 66, 87, 0.2);
+    border-radius: 0.5rem;
+    z-index: 1040;
+}
+
+// Dropdown header
+.dropdown-header {
+    color: $gray-500;
+    padding: 0.25rem 1.2rem;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.6875rem;
+    font-weight: 500;
+}
+
+// Dropdown text
+.dropdown-text {
+    padding: 0.25rem 1.2rem;
+    color: $gray-500;
+    font-size: 0.75rem;
+    line-height: 1.4;
+}
+
+// Dropdown item
+.dropdown-item {
+    font-size: 0.875rem;
+    line-height: 28px;
+    font-weight: 500;
+    color: $gray-900;
+    padding: 0.125rem 1.2rem;
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+        background-color: $light;
+        border-radius: 0rem;
+    }
+    &.active {
+        color: $primary;
+        text-decoration: none;
+        background-color: $light;
+    }
+    &:last-child {
+        border-bottom: 0rem;
+    }
+    &:focus {
+        color: $primary;
+        text-decoration: none;
+        background-color: $gray-300;
+        border-radius: 0rem;
+        color: $primary;
+        text-decoration: none;
+        background-color: $light;
+        border-radius: 0rem;
+        .dropdown-toggle {
+            &::after {
+                color: $primary;
+            }
+        }
+        &:hover {
+            color: $primary;
+            text-decoration: none;
+            background-color: $light;
+            border-radius: 0rem;
+        }
+        &:active {
+            color: $black;
+            text-decoration: none;
+            background-color: $light;
+            border-radius: 0.25rem;
+        }
+    }
+    &:hover.dropdown-toggle {
+        &::after {
+            color: $primary;
+        }
+    }
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+        background-color: $light;
+        border-radius: 0px;
+    }
+}
+
+// Dropdown menu sizes
+.dropdown-menu-xs {
+    min-width: 8rem !important;
+    border-radius: 0.5rem;
+}
+
+.dropdown-menu-md {
+    min-width: 17rem !important;
+    border-radius: 0.5rem;
+}
+
+.dropdown-menu-lg {
+    min-width: 22rem !important;
+    border-radius: 0.5rem;
+}
+
+.dropdown-menu-xl {
+    min-width: 24rem !important;
+    border-radius: 0.5rem;
+}
+
+// Dropdown toggle arrow
+.dropdown-toggle::after {
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    font-family: "Material Design Icons" !important;
+    content: "\f0140";
+    border-top: 0rem;
+    border-right: 0rem;
+    border-bottom: 0;
+    border-left: 0rem;
+    float: right;
+}
+
+// Dropup
+.dropup .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    font-family: "Material Design Icons" !important;
+    content: "\f0143";
+    border-top: 0rem;
+    border-right: 0rem;
+    border-bottom: 0;
+    border-left: 0rem;
+}
+
+// dropend
+.dropend .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    font-family: "Material Design Icons" !important;
+    content: "\f0142";
+    border-top: 0rem;
+    border-right: 0rem;
+    border-bottom: 0;
+    border-left: 0rem;
+}
+
+// dropstart
+.dropstart .dropdown-toggle::before {
+    display: inline-block;
+    margin-right: 0.255em;
+    font-family: "Material Design Icons" !important;
+    content: "\f0141";
+    border-top: 0rem;
+    border-right: 0rem;
+    border-bottom: 0;
+    border-left: 0rem;
+}
+
+// Dropdown item icon
+.dropdown-item-icon {
+    display: inline-block;
+    opacity: 0.7;
+    font-size: 1rem;
+    width: 1.5rem;
+    color: $gray-600;
+}
+
+// Responsive breakpoints for dropdown
+@media (min-width: 990px) {
+    .dropstart-lg {
+        position: relative;
+        .dropdown-menu {
+            top: 0;
+            right: 100%;
+            margin-top: 0;
+            margin-right: 0.125rem;
+        }
+    }
+    .dropstart-toggle-none.dropstart .dropdown-toggle::before {
+        display: none;
+    }
+}
+
+
+
+
+// Toggle none
+
+.dropdown-toggle-none .dropdown-toggle::before {
+    display: none;
+}
+
+
+
+
+// Hover dropdown submenu
+
+.dropdown-animation.dropdown-submenu {
+    .dropdown-menu {
+      top: 0;
+      right: 100%;
+      margin-top: 0;
+      margin-right: 0.125rem;
+    }
+    .dropdown-menu {
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      transform: translateY(20px);
+      -webkit-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in;
+    }
+    &:hover {
+      > .dropdown-menu {
+        -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        transform: scaleY(1);
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }

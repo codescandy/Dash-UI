@@ -1,0 +1,130 @@
+//
+// Extended from bootstrap
+//
+
+// btn play
+.btn-play {
+    background-color: $white;
+    color: $primary;
+    transition: 0.2s ease;
+    &:hover {
+        background-color: $primary;
+        color: $white;
+        transition: 0.2s ease;
+    }
+}
+
+// btn outline white
+.btn-outline-white {
+    border-color: $gray-300;
+    color: $body-color;
+    &:hover, &:focus {
+        background-color: $gray-100;
+        border-color: $gray-400;
+        color: $body-color;
+    }
+    &.active {
+        background-color: $gray-100;
+        border-color: $gray-400;
+        color: $body-color;
+    }
+}
+
+// Sizing
+// .btn-xs {
+//     padding: $input-btn-padding-y-xs $input-btn-padding-x-xs;
+//     font-size: $input-btn-font-size-xs;
+// }
+
+// btn icon
+.btn-icon {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: .92969rem;
+    font-weight: 400;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+}
+
+.btn-icon.btn-xs {
+    font-size: .75rem;
+    width: 1.53125rem;
+    height: 1.53125rem;
+}
+
+.btn-icon.btn-sm {
+    font-size: .875rem;
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+
+.btn-icon.btn-lg {
+    font-size: 1rem;
+    width: 3.36875rem;
+    height: 3.36875rem;
+}
+
+// onclick dropdown active btn icon
+// .dropdown.active.show .btn-icon {
+//     background-color: $light-primary;
+//     color: $primary !important;
+// }
+
+.d-grid {
+    display: grid;
+}
+
+// Make a button look and behave like a link
+// .btn-link {
+//     font-weight: $font-weight-semi-bold;
+//     color: $link-color;
+//     text-decoration: $link-decoration;
+//     @include hover() {
+//         color: $link-hover-color;
+//         text-decoration: none;
+//     }
+//     &:focus,
+//     &.focus {
+//         text-decoration: none;
+//     }
+//     // No need for an active state here
+// }
+
+// primary hover
+.primary-hover {
+    &:hover {
+        background-color: $primary;
+        color: $white;
+        border: $primary;
+    }
+    &:focus {
+        background-color: $primary;
+        color: $white;
+        border: $primary;
+        box-shadow: 0 0 0 0.2rem rgba(129, 97, 244, .5);
+    }
+    &.active {
+        background-color: $primary;
+        color: $white;
+        border: $primary;
+    }
+}
+
+
+
+
+// btn focus none
+.btn.btn-focus-none{
+        &:focus{
+            box-shadow: none;
+        }
+
+}

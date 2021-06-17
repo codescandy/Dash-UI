@@ -1,0 +1,98 @@
+
+// docs
+.docs-example-border-utils [class^=border] {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin: .25rem;
+    background-color: #f5f4f8;
+}
+
+.gd-example-modal.modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    display: block;
+}
+
+.docs-example-border-utils-0 [class^=border] {
+    border: 1px solid #efeef1;
+}
+
+// Color Swatch
+.color-swatch {
+    margin-bottom: 1.875rem;
+}
+
+.color-swatch-header {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 5.5rem;
+}
+
+.color-swatch-body {
+    border: 1px solid $gray-200;
+    background-color: $white;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 0.625rem 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.color-swatch-body-label {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-bottom: 0.1875rem;
+}
+
+.color-swatch-body-value {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    margin-bottom: 0rem;
+}
+
+// Setting Sidebar
+.setting-nav {
+    position: absolute;
+    top: 60px;
+    width: 95%;
+    // height: calc(100vh - 2rem);
+    overflow-y: auto;
+    // padding-top: 4.0625rem;
+    // border-left: 1px solid $gray-300;
+    @media(max-width: 768px){
+
+        position: relative;
+
+    }
+
+            a {
+                font-size: 14px;
+                color: $gray-900;
+                font-weight: 500;
+                display: block;
+                background-color: $white;
+
+                line-height: 26px;
+                text-decoration: none;
+                transition: 0.5s ease;
+                &:hover {
+                    color: $primary;
+                }
+
+                &.active {
+                display: block;
+                color: $primary;
+
+                transition: 0.5s ease;
+            }
+
+        }
+
+    }

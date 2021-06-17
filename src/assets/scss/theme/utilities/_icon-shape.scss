@@ -1,0 +1,43 @@
+// Icon shape
+.icon-xxs {
+  width: $icon-size-xxs;
+  height: $icon-size-xxs;
+  line-height: $icon-size-xxs;
+}
+.icon-xs {
+  width: $icon-size-xs;
+  height: $icon-size-xs;
+  line-height: $icon-size-xs;
+}
+.icon-sm {
+  width: $icon-size-sm;
+  height: $icon-size-sm;
+  line-height: $icon-size-sm;
+}
+.icon-md {
+  width: $icon-size-md;
+  height: $icon-size-md;
+  line-height: $icon-size-md;
+}
+.icon-lg {
+  width: $icon-size-lg;
+  height: $icon-size-lg;
+  line-height: $icon-size-lg;
+}
+.icon-xl {
+  width: $icon-size-xl;
+  height: $icon-size-xl;
+  line-height: $icon-size-xl;
+}
+.icon-xxl {
+  width: $icon-size-xxl;
+  height: $icon-size-xxl;
+  line-height: $icon-size-xxl;
+}
+.icon-shape {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}

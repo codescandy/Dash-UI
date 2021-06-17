@@ -1,0 +1,46 @@
+// Apex Chart
+.apexcharts-tooltip {
+    border-radius: .5rem !important;
+    box-shadow: $box-shadow-sm !important;
+    .apexcharts-tooltip-series-group {
+        background: $white !important;
+        color: $dark;
+        padding: 3px 16px 6px 16px !important;
+        display: none;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+        line-height: 1 !important;
+    }
+}
+
+.apexcharts-tooltip-marker {
+    width: 8px !important;
+    height: 8px !important;
+    position: relative;
+    top: 0px;
+    margin-right: 6px !important;
+    border-radius: 50%;
+}
+
+// .apexcharts-tooltip-series-group.apexcharts-active,
+// .apexcharts-tooltip-series-group:last-child {
+//     padding-bottom: 50px !important;
+// }
+.apexcharts-tooltip.apexcharts-theme-light {
+    border: 1px solid $gray-200 !important;
+    background-color: $gray-100 !important;
+    background: $white !important;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+    background: $white !important;
+    border-bottom: 1px solid $gray-200 !important;
+}
+
+.apexcharts-tooltip-title {
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    margin-bottom: 4px;
+    font-weight: 600 !important;
+}

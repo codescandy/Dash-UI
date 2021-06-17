@@ -1,0 +1,231 @@
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #616A72!default;
+$gray-700: #495057 !default;
+$gray-800: #2A3139 !default;
+$gray-900: #151E28 !default;
+$black: #000 !default;
+$primary: #624BFF !default;
+$secondary: #79758f !default;
+$success: #28A745 !default;
+$info: #0DCAF0 !default;
+$warning: #FFC107 !default;
+$danger: #DC3545 !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+
+
+
+// Light color
+$light-primary: #E0DCFE !default; // NEW
+$light-secondary: #e9ecef !default; // NEW
+$light-success: #EAF6EC !default; // NEW
+$light-danger: #FBEBEC!default; // NEW
+$light-warning: #FFF3CD !default; // NEW
+$light-info: #E7FAFE !default; // NEW
+$light-dark: #d1cfd8 !default; // NEW
+
+
+// Dark color
+$dark-primary: #593cc1 !default; // NEW
+$dark-secondary: #5c596d !default; // NEW
+$dark-success: #139a74 !default; // NEW
+$dark-danger: #ae302e !default; // NEW
+$dark-warning: #c28135 !default; // NEW
+$dark-info: #51a0c2 !default; // NEW
+
+
+
+
+
+
+$theme-colors: () !default;
+$theme-colors: ( "primary":    $primary,
+"secondary":        $secondary,
+"success":          $success,
+"info":             $info,
+"warning":          $warning,
+"danger":           $danger,
+"light":            $light,
+"dark":             $dark,
+'white':            $white,
+'light-primary':    $light-primary,
+'light-danger':     $light-danger,
+'light-info':       $light-info,
+'light-warning':    $light-warning,
+'light-secondary':  $light-secondary,
+'light-success':    $light-success,
+'light-dark':       $light-dark,
+'dark-primary':     $dark-primary,
+'dark-warning':     $dark-warning,
+'dark-info':        $dark-info,
+'dark-danger':      $dark-danger,
+'dark-success':     $dark-success,
+'dark-secondary':   $dark-secondary, );
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: $gray-200 !default;
+$body-color: $gray-600 !default;
+// Typography
+// Font, line-height, and color for body text, headings, and more.
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: 'Inter',
+'sans-serif' !default;
+$font-family-base: $font-family-sans-serif !default;
+$font-family-heading: $font-family-sans-serif;
+// stylelint-enable value-keyword-case
+$font-size-base: 0.9375rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * .875 !default;
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-semi-bold: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+$font-weight-base: $font-weight-normal !default;
+$line-height-base: 1.5 !default;
+$link-hover-decoration: none !default;
+
+
+$h1-font-size:                2.25rem !default;
+$h2-font-size:                1.875rem !default;
+$h3-font-size:                1.5rem !default;
+$h4-font-size:                1.125rem !default;
+$h5-font-size:                0.938rem !default;
+$h6-font-size:                0.75rem !default;
+
+
+$headings-color:              $gray-800 !default;
+
+
+
+// Line height
+$line-height-base: 1.6 !default;
+$line-height-1: 1 !default;
+$line-height-2: 2 !default;
+$line-height-sm: 1.2 !default;
+$line-height-md: 1.6 !default;
+$line-height-lg: 1.8 !default;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge((0: 0, 1: ($spacer * 0.25), // 4px
+2: ($spacer * 0.5), // 8px
+3: ($spacer * 1), // 16px
+4: ($spacer * 1.25), // 20px
+5: ($spacer * 1.5), // 24px
+6: ($spacer * 2), // 32px
+7: ($spacer * 2.5), // 40px
+8: ($spacer * 3), // 48px
+9: ($spacer * 3.5), // 56px
+10: ($spacer * 4), // 64px
+11: ($spacer * 4.5), // 72px
+12: ($spacer * 5), // 80px
+13: ($spacer * 5.5), // 88px
+14: ($spacer * 6), // 96px
+15: ($spacer * 6.5), // 104px
+16: ($spacer * 7), // 112px
+17: ($spacer * 7.5), // 120px
+18: ($spacer * 8), // 128px
+19: ($spacer * 8.5), // 136px
+20: ($spacer * 9), // 144px
+21: ($spacer * 9.5), // 152px
+22: ($spacer * 10), // 160px
+23: ($spacer * 12), // 288px
+), $spacers);
+$border-radius: .375rem !default;
+$border-radius-lg: .5rem !default;
+$border-radius-sm: .2rem !default;
+$smooth-shadow-sm: 0px 2px 4px rgba(0, 0, 20, 0.08),
+0px 1px 2px rgba(0, 0, 20, 0.08)!default;
+
+
+$smooth-shadow-md: 0 1px 2px rgba(21,30,40,0.07),
+0 2px 4px rgba(21,30,40,0.07),
+0 4px 8px rgba(21,30,40,0.07),
+0 8px 16px rgba(21,30,40,0.07),
+0 16px 32px rgba(21,30,40,0.07),
+0 32px 64px rgba(21,30,40,0.07)!default;
+
+$smooth-shadow-lg: 0 1px 1px rgba(21,30,40,0.11),
+0 2px 2px rgba(21,30,40,0.11),
+0 4px 4px rgba(21,30,40,0.11),
+0 8px 8px rgba(21,30,40,0.11),
+0 16px 16px rgba(21,30,40,0.11),
+0 32px 32px rgba(21,30,40,0.11)!default;
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+$input-btn-padding-y: .5rem !default;
+$input-btn-padding-x: 1rem !default;
+$input-btn-font-family: null !default;
+$btn-font-weight: $font-weight-medium !default;
+// Avatar
+$avatar-size-xs: 1.5rem !default;
+$avatar-size-sm: 2rem !default;
+$avatar-size-md: 2.5rem !default;
+$avatar-size-lg: 3.5rem !default;
+$avatar-size-xl: 5rem !default;
+$avatar-size-xxl: 7.5rem !default;
+// Icon
+$icon-size-xxs: .875rem !default;
+$icon-size-xs: 1rem !default;
+$icon-size-sm: 1.5rem !default;
+$icon-size-md: 2.5rem !default;
+$icon-size-lg: 3rem !default;
+$icon-size-xl: 3.5rem !default;
+$icon-size-xxl: 4rem !default;
+$enable-responsive-font-sizes: false !default;
+// Position
+// Define the edge positioning anchors of the position utilities.
+$position-values: (0: 0, 1: 1, 2: 2, 50: 50%, 100: 100%) !default;
+
+$enable-negative-margins:     true !default;
+
+
+
+$link-decoration:                         none !default;
+
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+$sizes: map-merge( ( 5: 5%, 25: 25%, 30: 30%, 40: 40%, 50: 50%, 65: 65%, 75: 75%, 80: 80%, 90: 90%, 100: 100%, auto: auto), $sizes);
+
+
+// grid
+$grid-gutter-width: 32px !default;
+
+
+
+// Cards
+
+$card-spacer-y:                     1.5rem !default;
+$card-spacer-x:                     1.5rem !default;
+
+
+
+
+// letter spacing
+$letter-spacing-sm: -0.04em;
+$letter-spacing-xs: -0.08em;
+$letter-spacing-base: 0em;
+$letter-spacing-md: 0.1em;
+$letter-spacing-lg: 0.15em;
+$letter-spacing-xl: 0.2em;
+$letter-spacing-xxl: 0.25em;

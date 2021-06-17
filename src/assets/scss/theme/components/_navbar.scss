@@ -1,0 +1,95 @@
+// navbar
+
+.navbar-classic {
+    background-color: #fff;
+    box-shadow: $smooth-shadow-sm;
+
+    .navbar-right-wrap {
+        .list-group-item {
+          padding: 1rem 1.25rem;
+        }
+      }
+      .nav-badge {
+        position: absolute;
+        top: -9px;
+        right: 3px;
+      }
+}
+// Responsive breakpoints
+@media (min-width: 1200px) {
+    .navbar-classic {
+      .dropdown-menu-end {
+        right: 0;
+        left: auto;
+      }
+      .dropdown-menu-start {
+        right: auto;
+        left: 0;
+      }
+      .dropdown-menu {
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+      }
+      .dropdown {
+        &:hover {
+          > .dropdown-menu {
+            -webkit-transform: scaleY(1);
+            -ms-transform: scaleY(1);
+            transform: scaleY(1);
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+      .dropdown-submenu {
+        &:hover {
+          > .dropdown-menu {
+            -webkit-transform: scaleY(1);
+            -ms-transform: scaleY(1);
+            transform: scaleY(1);
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 992px) {
+    .navbar-classic {
+      .navbar-nav {
+        .dropdown-menu {
+
+          margin: 0px;
+          .dropdown-submenu {
+            .dropdown-menu {
+              box-shadow: none;
+              margin: 0;
+            }
+          }
+        }
+      }
+      .nav-top-wrap {
+        flex-direction: row;
+        .dropdown {
+          position: static;
+        }
+        .dropdown-menu {
+          position: absolute;
+          margin: 0.25rem 0.75rem !important;
+          .dropdown-submenu .dropdown-menu {
+            position: relative;
+            top: -7px !important;
+            padding: 0px !important;
+          }
+        }
+      }
+    }
+  }

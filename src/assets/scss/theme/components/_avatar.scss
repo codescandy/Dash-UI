@@ -1,0 +1,174 @@
+// Avatar
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+}
+
+// Avatar Size
+.avatar-xs {
+    width: $avatar-size-xs;
+    height: $avatar-size-xs;
+}
+
+.avatar-sm {
+    width: $avatar-size-sm;
+    height: $avatar-size-sm;
+}
+
+.avatar-md {
+    width: $avatar-size-md;
+    height: $avatar-size-md;
+}
+
+.avatar-lg {
+    width: $avatar-size-lg;
+    height: $avatar-size-lg;
+}
+
+.avatar-xl {
+    width: $avatar-size-xl;
+    height: $avatar-size-xl;
+}
+
+.avatar-xxl {
+    width: $avatar-size-xxl;
+    height: $avatar-size-xxl;
+}
+
+// Avatar img
+.avatar img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.avatar-indicators {
+    position: relative;
+}
+
+.avatar-indicators:before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 2px solid $white;
+    display: table;
+}
+
+.avatar-xxl.avatar-indicators:before {
+    bottom: 5px;
+    right: 17%;
+    width: 16%;
+    height: 16%;
+}
+
+// Avatar indicators
+.avatar-offline:before {
+    background-color: $gray-400;
+}
+
+.avatar-online:before {
+    background-color: $success;
+}
+
+.avatar-away:before {
+    background-color: $warning;
+}
+
+.avatar-busy:before {
+    background-color: $danger;
+}
+
+.avatar-info:before {
+    background-color: $info;
+}
+
+// Avatar intials
+.avatar-initials {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+// Color varient
+
+.avatar-primary .avatar-initials {
+  color: $white;
+  background-color: $primary;
+}
+.avatar-secondary .avatar-initials {
+  color: $white;
+  background-color: $secondary;
+}
+.avatar-success .avatar-initials {
+  color: $white;
+  background-color: $success;
+}
+.avatar-warning .avatar-initials {
+  color: $white;
+  background-color: $warning;
+}
+.avatar-info .avatar-initials {
+  color: $white;
+  background-color: $info;
+}
+.avatar-danger .avatar-initials {
+  color: $white;
+  background-color: $danger;
+}
+.avatar-light .avatar-initials {
+  color: $white;
+  background-color: $light;
+}
+.avatar-dark .avatar-initials {
+  color: $white;
+  background-color: $dark;
+}
+
+
+// Avatar Group
+.avatar-group .avatar+.avatar {
+    margin-left: -1.2rem;
+}
+
+.avatar-group .avatar:hover {
+    z-index: 2;
+}
+
+// Avatar border
+.avatar-group img,
+.avatar-group .avatar .avatar-initials {
+    border: 2px solid $white;
+}
+
+// Image aspect ratio 4:3
+// .img-4by3-xxl {
+//   width: $img-4by3-xxl;
+// }
+// .img-4by3-xl {
+//   width: $img-4by3-xl;
+// }
+// .img-4by3-lg {
+//   width: $img-4by3-lg;
+// }
+// .img-4by3-md {
+//   width: $img-4by3-md;
+// }
+// .img-4by3-sm {
+//   width: $img-4by3-sm;
+// }
+// .img-4by3-xs {
+//   width: $img-4by3-xs;
+// }

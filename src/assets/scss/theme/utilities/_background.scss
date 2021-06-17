@@ -1,0 +1,19 @@
+//
+// Extended from bootstrap
+//
+
+
+// filter invert in to dark
+.filter-invert-white {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.filter-invert-dark {
+    -webkit-filter: brightness(0) invert(0);
+    filter: brightness(0) invert(0);
+}
+
+.bg-gray-400 {
+    background-color: $gray-400;
+}
