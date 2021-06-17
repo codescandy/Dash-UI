@@ -32,6 +32,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-terser": "^2.0.1",
     "gulp-useref": "^5.0.0",
+    "node-sass": "^6.0.0",
     "postcss": "^8.3.5"
   },
   "dependencies": {
