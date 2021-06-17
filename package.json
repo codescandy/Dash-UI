@@ -2,6 +2,23 @@
   "name": "dash-ui",
   "version": "1.0.0",
   "description": "Dash-UI is a free & open source Bootstrap 5 Admin Template",
+  "keywords": [
+    "bootstrap",
+    "bootstrap 5",
+    "admin",
+    "admin template",
+    "dashboard",
+    "dashboard template",
+    "template",
+    "responsive",
+    "css",
+    "sass",
+    "html",
+    "theme",
+    "front-end",
+    "ui kit",
+    "web"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
