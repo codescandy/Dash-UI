@@ -1,20 +1,28 @@
-$white: #fff !default;
+$white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #616A72!default;
+$gray-600: #6c757d !default;
 $gray-700: #495057 !default;
-$gray-800: #2A3139 !default;
-$gray-900: #151E28 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
 $black: #000 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
 $primary: #624BFF !default;
-$secondary: #79758f !default;
-$success: #28A745 !default;
-$info: #0DCAF0 !default;
-$warning: #FFC107 !default;
-$danger: #DC3545 !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
 $light: $gray-100 !default;
 $dark: $gray-900 !default;
 
@@ -176,6 +184,8 @@ $input-btn-padding-y: .5rem !default;
 $input-btn-padding-x: 1rem !default;
 $input-btn-font-family: null !default;
 $btn-font-weight: $font-weight-medium !default;
+
+$form-label-color:                      $gray-900 !default;
 // Avatar
 $avatar-size-xs: 1.5rem !default;
 $avatar-size-sm: 2rem !default;
@@ -229,3 +239,38 @@ $letter-spacing-md: 0.1em;
 $letter-spacing-lg: 0.15em;
 $letter-spacing-xl: 0.2em;
 $letter-spacing-xxl: 0.25em;
+
+
+
+
+// Tables
+//
+// Customizes the `.table` component with basic values, each used across all table variations.
+
+
+
+$table-head-color : $gray-700 !default;
+
+
+$table-cell-padding-y:        .75rem !default;
+$table-cell-padding-x:        1.5rem !default;
+$table-cell-padding-y-sm:     .3rem !default;
+$table-cell-padding-x-sm:     .6rem !default;
+
+
+$table-accent-bg:             rgba($gray-100, 0.7) !default;
+$table-hover-bg:              rgba($gray-100, 0.7) !default;
+
+
+
+// table striped
+
+$table-striped-bg-factor:     1 !default;
+$table-striped-bg:            rgba($gray-100, $table-striped-bg-factor) !default;
+
+// table active
+
+$table-active-bg-factor:      1 !default;
+$table-active-bg:             rgba($gray-100, $table-active-bg-factor) !default;
+
+$table-group-separator-color: $gray-200 !default;

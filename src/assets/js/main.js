@@ -113,47 +113,6 @@ var toastList = toastElList.map(function (toastEl) {
 })
 
     }
-    // Sidenav fixed for docs
-
-    if ($(".setting-nav a").length) {
-        $(".setting-nav a")
-            // Remove links that don't actually link to anything
-            .on("click", function(event) {
-                // On-page links
-                if (
-                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
-                    location.hostname == this.hostname
-                ) {
-                    // Figure out element to scroll to
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    // Does a scroll target exist?
-                    if (target.length) {
-                        // Only prevent default if animation is actually gonna happen
-                        event.preventDefault();
-                        $('html, body').animate({
-                            scrollTop: target.offset().top - 80
-                        }, 1000, function() {
-                            // Callback after animation
-                            // Must change focus!
-                            var $target = $(target);
-                            $target.focus();
-                            if ($target.is(":focus")) { // Checking if the target was focused
-                                return false;
-                            } else {
-                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                                $target.focus(); // Set focus again
-                            };
-                        });
-
-                    }
-                };
-                $('.sidebar-nav-fixed a').each(function() {
-                    $(this).removeClass('active');
-                })
-                $(this).addClass('active');
-            });
-    }
 
 
 // Perfomance Chart
@@ -198,7 +157,14 @@ var toastList = toastElList.map(function (toastEl) {
 
 
 
+// offcanvas
+if ($(".offcanvas").length) {
+  var offcanvasElementList = [].slice.call(document.querySelectorAll('.offcanvas'))
+var offcanvasList = offcanvasElementList.map(function (offcanvasEl) {
+  return new bootstrap.Offcanvas(offcanvasEl)
+})
 
+  }
 
 
 

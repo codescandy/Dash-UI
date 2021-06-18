@@ -8,7 +8,7 @@
         <!-- Navbar nav -->
         <ul class="navbar-nav flex-column" id="sideNavbar">
             <li class="nav-item">
-                <a class="nav-link has-arrow @@if (context.page ===  'dashboard') { active }" href="#!">
+                <a class="nav-link has-arrow @@if (context.page ===  'dashboard') { active }" href="@@webRoot/index.html">
                     <i data-feather="home" class="nav-icon icon-xs me-2"></i>  Dashboard
                 </a>
 
@@ -121,6 +121,11 @@
                             <div id="navComponents" class="collapse @@if (context.page_group === 'components') { show }" data-bs-parent="#sideNavbar">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
+                                        <a class="nav-link @@if (context.page === 'accordions') { active }" href="@@webRoot/components/accordions.html" aria-expanded="false">
+                                              Accordions
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="nav-link @@if (context.page === 'alerts') { active }" href="@@webRoot/components/alerts.html" aria-expanded="false">
                                               Alerts
                                         </a>
@@ -195,6 +200,11 @@
                                 <li class="nav-item">
                                     <a class="nav-link @@if (context.page === 'navbar') { active }" href="@@webRoot/components/navbar.html" aria-expanded="false">
                                          Navbar
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link @@if (context.page === 'offcanvas') { active }" href="@@webRoot/components/offcanvas.html" aria-expanded="false">
+                                         Offcanvas
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -279,6 +289,21 @@
                                         </ul>
                                         </div>
                                         </li>
+
+                                         <!-- Nav item -->
+                        <li class="nav-item">
+                            <div class="navbar-heading">Documentation</div>
+                        </li>
+
+                        <!-- Nav item -->
+                        <li class="nav-item">
+                            <a class="nav-link has-arrow @@if (context.page === 'docs') { active }" href="@@webRoot/pages/getting-started.html" >
+                                <i data-feather="clipboard" class="nav-icon icon-xs me-2" >
+                            </i>  Docs
+                            </a>
+                         </li>
+
+
                         <!-- Nav item -->
                         <li class="nav-item">
                             <a class="nav-link has-arrow @@if (context.page_group !== 'menulevel') { collapsed }" href="#!" data-bs-toggle="collapse" data-bs-target="#navMenuLevel" aria-expanded="false" aria-controls="navMenuLevel">
