@@ -16,7 +16,7 @@ This product is built using the following widely used technologies:
 
 ## Quick start
 
-1. Download from [Themesberg](https://themesberg.com/product/admin-dashboard/dash-ui-bootstrap-5-dashboard) or clone this repository
+1. Download from clone this repository
 2. Download the project's zip
 3. Make sure you have Node locally installed.
 4. Download Gulp Command Line Interface to be able to use gulp in your Terminal.
