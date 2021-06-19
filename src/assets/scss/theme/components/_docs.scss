@@ -1,5 +1,82 @@
 
 // docs
+
+// Docs header
+
+.docs-header {
+    .docs-header-btn {
+      display: flex;
+      align-items: center;
+    }
+    .navbar {
+      margin-left: 15.625rem;
+      padding: 0.5rem 0.625rem;
+      border-bottom: 1px solid $gray-200;
+      @media (max-width: 576px) {
+        margin-left: 0rem;
+      }
+      .dropdown-menu {
+        margin: 0rem;
+        border: 1px solid rgb(239, 238, 241);
+      }
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            font-size: 1rem;
+            line-height: 1.75rem;
+            padding: 0.875rem;
+            margin-bottom: 0rem;
+            color: $gray-700;
+
+            &:hover {
+              color: $black;
+            }
+          }
+        }
+      }
+    }
+  }
+
+// layouts
+// Doc section head
+
+.doc-section-head {
+    border-bottom: 1px solid #efeef1;
+    padding: 2.5rem 0rem;
+    margin-bottom: 2.5rem;
+  }
+
+  // Docs section head text
+
+  .doc-section-head-text {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  // Docs Main wrapper
+
+  .docs-main-wrapper {
+    min-height: 100%;
+    position: relative;
+  }
+
+  // Docs wrapper
+
+  .docs-wrapper {
+    position: relative;
+    left: 0;
+    margin-left: 15.625rem;
+    background-color: $gray-100;
+    top: 35px;
+  }
+  .docs-content {
+    margin: 4.0625rem 0rem;
+  }
+  .docs-content-head {
+    padding: 4.375rem 0rem;
+  }
+
+
 .docs-example-border-utils [class^=border] {
     display: inline-block;
     width: 5rem;
@@ -96,3 +173,53 @@
         }
 
     }
+
+
+
+    // Sidebar
+
+.sidebar-nav-fixed {
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 2rem);
+    overflow-y: auto;
+    padding-top: 4.0625rem;
+    border-left: 1px solid $gray-300;
+    ul {
+      list-style: none;
+      li {
+        a {
+          font-size: 0.8125rem;
+          color: $gray-600;
+          display: block;
+          padding: 0.125rem 1.5rem;
+          background: transparent;
+          border-radius: 0px;
+          border-left: 2px solid transparent;
+          line-height: 1.4375rem;
+          text-decoration: none;
+          transition: 0.5s ease;
+          &:hover {
+            color: $primary;
+          }
+        }
+        a.active {
+          display: block;
+          color: $primary;
+          background: transparent !important;
+          text-decoration: none;
+          border-left-color: $primary;
+          transition: 0.5s ease;
+        }
+        ul {
+          list-style: none;
+          padding-left: 0rem;
+          li {
+            a {
+              padding: 0.125rem 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }

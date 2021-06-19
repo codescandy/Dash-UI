@@ -1,0 +1,122 @@
+// Docs Sidebar
+
+.docs-nav-sidebar {
+  position: fixed;
+  width: 15.625rem;
+  height: 100%;
+  top: 0px;
+  font-weight: 500;
+  background-color: $white;
+  z-index: 22;
+  border-right: 1px solid $gray-200;
+  .navbar-brand {
+    padding: 14px 20px 10px 20px;
+    margin-right: 0rem;
+  }
+  .docs-nav {
+    height: calc(100% - 5.2rem) !important;
+    overflow-y: auto;
+  }
+  .navbar {
+    padding: 0rem;
+  }
+  .navbar-nav {
+    min-width: 100%;
+
+    @media (max-width: 375px) {
+      padding-top: 25px;
+      height: 100vh;
+    }
+
+    .navbar-header {
+      margin-bottom: 1rem;
+      padding: 0rem 1.25rem;
+      margin-top: 1.5625rem;
+      font-size: 0.75rem;
+      .heading {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: $gray-400;
+        margin-bottom: 0rem;
+      }
+      span {
+        color: $gray-600;
+      }
+    }
+    .navbar-border {
+      border-bottom: 1px solid $gray-200;
+      margin: 1.25rem 0rem;
+    }
+    .nav-item {
+      .nav-link {
+        color: $gray-800;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        padding: 0.5rem 1.25rem;
+        font-family: $font-family-sans-serif;
+        font-weight: 500;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+      .nav-link.active {
+        color: $primary;
+      }
+    }
+  }
+
+  // Nav footer
+
+  .nav-footer {
+    border-top: 1px solid $gray-200;
+    padding: 0.875rem 1.5rem;
+    position: absolute;
+    bottom: 0;
+    background-color: $white;
+    width: 100%;
+  }
+}
+
+
+
+// Docs breakpoints
+
+@media only screen and (max-width: 768px) {
+  .docs-content {
+    padding: 3.75rem 1.25rem 8.75rem 1.25rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  // Docs nav sidebar
+  .docs-nav-sidebar {
+    .top-search-bar {
+      padding: 1.25rem;
+      border-bottom: 1px solid #e9e9f1;
+      margin-top: 2.875rem;
+    }
+    .navbar-toggler {
+      background-color: $white;
+    }
+    width: 100%;
+    position: relative;
+    right: 0rem;
+  }
+
+  // Docs wrapper
+
+  .docs-wrapper {
+    margin-left: 0rem;
+  }
+  .docs-main-wrapper {
+    .main-content {
+      margin-left: 0rem;
+      width: auto;
+    }
+  }
+  .docs-content {
+    padding: 0rem;
+  }
+}
