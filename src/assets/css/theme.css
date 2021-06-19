@@ -16450,12 +16450,12 @@ textarea.form-control-lg {
     .navbar-vertical .navbar-brand img {
       height: 1.875rem; }
   .navbar-vertical .navbar-heading {
-    color: #6c757d;
+    color: #495057;
     padding: 1rem 1.5rem;
     font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.125rem;
-    font-weight: 600; }
+    letter-spacing: 0.08rem;
+    font-weight: 700; }
   .navbar-vertical .navbar-nav .nav-item .nav-link {
     padding: 0.5rem 1.5rem;
     display: flex;
