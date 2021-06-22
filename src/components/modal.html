@@ -6,69 +6,49 @@
   <title>Modal | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
 </head>
 
-<body >
+<body>
   <div id="db-wrapper">
-    @@include('../partials/navbar-vertical.html', {
-
-
-      "page": "modal",
-      "page_group": "components"
-
-
-  })
+    @@include('../partials/navbar-vertical.html', { "page": "modal", "page_group": "components" })
 
     <div id="page-content">
       @@include("../partials/header.html")
       <div class="container-fluid py-12 px-6 px-xl-0">
         <div class="row">
-            <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
-                <!-- Content -->
-                <div class="docs-content">
-                  <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                      <div class="mb-7" id="intro">
-                        <h1 class="mb-2">Modal</h1>
-                        <p class="mb-0 lead text-dark">Use Bootstrap’s JavaScript modal plugin to add
-                          dialogs to your site for lightboxes, user notifications, or completely
-                          custom content.</p>
-                      </div>
-                    </div>
+          <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
+            <!-- Content -->
+            <div class="docs-content">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="mb-7" id="intro">
+                    <h1 class="mb-2">Modal</h1>
+                    <p class="mb-0 lead text-dark">Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
                   </div>
-                  <!-- modal-example -->
+                </div>
+              </div>
+              <!-- modal-example -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="examples" class="mb-4">
                     <h2>Examples</h2>
                     <div class="mt-4" id="modal-components">
                       <h3>Modal components</h3>
-                      <p>Below is a <em>static</em> modal example (meaning its <code
-                          class="highlighter-rouge">position</code> and <code class="highlighter-rouge">display</code>
-                        have been overridden).
-                        Included are the modal header,
-                        modal body (required for <code class="highlighter-rouge">padding</code>), and modal footer
-                        (optional). We ask that you include modal headers with dismiss actions
-                        whenever possible, or provide another explicit
-                        dismiss action.</p>
+                      <p>Below is a <em>static</em> modal example (meaning its <code class="highlighter-rouge">position</code> and <code class="highlighter-rouge">display</code> have been overridden). Included are the modal header, modal body (required for
+                        <code class="highlighter-rouge">padding</code>), and modal footer (optional). We ask that you include modal headers with dismiss actions whenever possible, or provide another explicit dismiss action.</p>
                     </div>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-modal-example" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-modal-example-design-tab" data-bs-toggle="pill"
-                          href="#pills-modal-example-design" role="tab" aria-controls="pills-modal-example-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-modal-example-design-tab" data-bs-toggle="pill" href="#pills-modal-example-design" role="tab" aria-controls="pills-modal-example-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-modal-example-html-tab" data-bs-toggle="pill"
-                          href="#pills-modal-example-html" role="tab" aria-controls="pills-modal-example-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-modal-example-html-tab" data-bs-toggle="pill" href="#pills-modal-example-html" role="tab" aria-controls="pills-modal-example-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-modal-example">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-modal-example-design"
-                        role="tabpanel" aria-labelledby="pills-modal-example-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-modal-example-design" role="tabpanel" aria-labelledby="pills-modal-example-design-tab">
                         <div class="modal gd-example-modal" tabindex="-1" role="dialog">
                           <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -90,8 +70,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-modal-example-html" role="tabpanel"
-                        aria-labelledby="pills-modal-example-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-modal-example-html" role="tabpanel" aria-labelledby="pills-modal-example-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
@@ -121,45 +100,37 @@
                 </div>
               </div>
               <!-- modal-example -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Live demo -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="live-demo" class="mb-4">
                     <h2>Live Demo</h2>
-                    <p>Toggle a working modal demo by clicking the button below. It will slide down
-                      and fade in from the top of the page.</p>
+                    <p>Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.</p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-live-demo" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-live-demo-design-tab" data-bs-toggle="pill"
-                          href="#pills-live-demo-design" role="tab" aria-controls="pills-live-demo-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-live-demo-design-tab" data-bs-toggle="pill" href="#pills-live-demo-design" role="tab" aria-controls="pills-live-demo-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-live-demo-html-tab" data-bs-toggle="pill"
-                          href="#pills-live-demo-html" role="tab" aria-controls="pills-live-demo-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-live-demo-html-tab" data-bs-toggle="pill" href="#pills-live-demo-html" role="tab" aria-controls="pills-live-demo-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-live-demo">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-live-demo-design"
-                        role="tabpanel" aria-labelledby="pills-live-demo-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-live-demo-design" role="tabpanel" aria-labelledby="pills-live-demo-design-tab">
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
                           Launch demo modal
                         </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog"
-                          aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                           <div class="modal-dialog" role="document">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal
-                                  title
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title
                                 </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
@@ -177,8 +148,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-live-demo-html" role="tabpanel"
-                        aria-labelledby="pills-live-demo-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-live-demo-html" role="tabpanel" aria-labelledby="pills-live-demo-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token comment">&lt;!-- Button trigger modal --&gt;</span>
@@ -213,118 +183,61 @@
                 </div>
               </div>
               <!-- Live demo -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Scrolling long content -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="scrolling-long-content" class="mb-4">
                     <h2>Scrolling long content</h2>
-                    <p>When modals become too long for the user’s viewport or device, they scroll
-                      independent of the page itself. Try the demo below to see what we mean.</p>
+                    <p>When modals become too long for the user’s viewport or device, they scroll independent of the page itself. Try the demo below to see what we mean.</p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-scroll-content" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-scroll-content-design-tab" data-bs-toggle="pill"
-                          href="#pills-scroll-content-design" role="tab" aria-controls="pills-scroll-content-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-scroll-content-design-tab" data-bs-toggle="pill" href="#pills-scroll-content-design" role="tab" aria-controls="pills-scroll-content-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-scroll-content-html-tab" data-bs-toggle="pill"
-                          href="#pills-scroll-content-html" role="tab" aria-controls="pills-scroll-content-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-scroll-content-html-tab" data-bs-toggle="pill" href="#pills-scroll-content-html" role="tab" aria-controls="pills-scroll-content-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Card -->
                     <div class="tab-content p-4" id="pills-tabContent-scroll-content">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-scroll-content-design"
-                        role="tabpanel" aria-labelledby="pills-scroll-content-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-scroll-content-design" role="tabpanel" aria-labelledby="pills-scroll-content-design-tab">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                          data-bs-target="#exampleModalLong">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong">
                           Launch demo modal
                         </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
-                          aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                           <div class="modal-dialog" role="document">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Modal
-                                  title
+                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title
                                 </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
                                 </button>
                               </div>
                               <div class="modal-body">
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
                               </div>
                               <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -335,8 +248,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-scroll-content-html" role="tabpanel"
-                        aria-labelledby="pills-scroll-content-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-scroll-content-html" role="tabpanel" aria-labelledby="pills-scroll-content-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token comment">&lt;!-- Button trigger modal --&gt;</span>
@@ -374,36 +286,28 @@
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div class="mb-4 mt-5">
-                    <p>You can also create a scrollable modal that allows scroll the modal body by
-                      adding <code class="highlighter-rouge">.modal-dialog-scrollable</code> to
+                    <p>You can also create a scrollable modal that allows scroll the modal body by adding <code class="highlighter-rouge">.modal-dialog-scrollable</code> to
                       <code class="highlighter-rouge">.modal-dialog</code>.</p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-modal-scrollable" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-modal-scrollable-design-tab" data-bs-toggle="pill"
-                          href="#pills-modal-scrollable-design" role="tab" aria-controls="pills-modal-scrollable-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-modal-scrollable-design-tab" data-bs-toggle="pill" href="#pills-modal-scrollable-design" role="tab" aria-controls="pills-modal-scrollable-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-modal-scrollable-html-tab" data-bs-toggle="pill"
-                          href="#pills-modal-scrollable-html" role="tab" aria-controls="pills-modal-scrollable-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-modal-scrollable-html-tab" data-bs-toggle="pill" href="#pills-modal-scrollable-html" role="tab" aria-controls="pills-modal-scrollable-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-modal-scrollable">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-modal-scrollable-design"
-                        role="tabpanel" aria-labelledby="pills-modal-scrollable-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-modal-scrollable-design" role="tabpanel" aria-labelledby="pills-modal-scrollable-design-tab">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                          data-bs-target="#exampleModalScrollable">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalScrollable">
                           Launch demo modal
                         </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
-                          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
                           <div class="modal-dialog modal-dialog-scrollable" role="document">
                             <div class="modal-content">
                               <div class="modal-header">
@@ -413,72 +317,24 @@
                                 </button>
                               </div>
                               <div class="modal-body">
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
-                                <p>Cras mattis consectetur purus sit amet fermentum.
-                                  Cras justo odio, dapibus ac facilisis in, egestas
-                                  eget quam. Morbi leo risus, porta ac consectetur ac,
-                                  vestibulum at eros.</p>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Vivamus sagittis lacus vel augue
-                                  laoreet rutrum faucibus dolor auctor.</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur.
-                                  Praesent commodo cursus magna, vel scelerisque nisl
-                                  consectetur et. Donec sed odio dui. Donec
-                                  ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                                <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
                               </div>
                               <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -489,8 +345,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-modal-scrollable-html" role="tabpanel"
-                        aria-labelledby="pills-modal-scrollable-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-modal-scrollable-html" role="tabpanel" aria-labelledby="pills-modal-scrollable-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token comment">&lt;!-- Button trigger modal --&gt;</span>
@@ -524,43 +379,34 @@
                   </div>
                 </div>
               </div>
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Vertically centered -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="vertically-centered" class="mb-4">
                     <h2>Vertically centered</h2>
-                    <p>Add <code class="highlighter-rouge">.modal-dialog-centered</code> to <code
-                        class="highlighter-rouge">.modal-dialog</code> to vertically center the
-                      modal.
+                    <p>Add <code class="highlighter-rouge">.modal-dialog-centered</code> to <code class="highlighter-rouge">.modal-dialog</code> to vertically center the modal.
                     </p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-vertically-centered" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-vertically-centered-design-tab" data-bs-toggle="pill"
-                          href="#pills-vertically-centered-design" role="tab"
-                          aria-controls="pills-vertically-centered-design" aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-vertically-centered-design-tab" data-bs-toggle="pill" href="#pills-vertically-centered-design" role="tab" aria-controls="pills-vertically-centered-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-vertically-centered-html-tab" data-bs-toggle="pill"
-                          href="#pills-vertically-centered-html" role="tab"
-                          aria-controls="pills-vertically-centered-html" aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-vertically-centered-html-tab" data-bs-toggle="pill" href="#pills-vertically-centered-html" role="tab" aria-controls="pills-vertically-centered-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-vertically-centered">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-vertically-centered-design"
-                        role="tabpanel" aria-labelledby="pills-vertically-centered-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-vertically-centered-design" role="tabpanel" aria-labelledby="pills-vertically-centered-design-tab">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                          data-bs-target="#exampleModalCenter">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
                           Launch demo modal
                         </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                           <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                               <div class="modal-header">
@@ -582,8 +428,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-vertically-centered-html" role="tabpanel"
-                        aria-labelledby="pills-vertically-centered-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-vertically-centered-html" role="tabpanel" aria-labelledby="pills-vertically-centered-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token comment">&lt;!-- Button trigger modal --&gt;</span>
@@ -618,40 +463,31 @@
                 </div>
               </div>
               <!-- Vertically centered -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Tooltips and popovers -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="tooltips-and-popovers" class="mb-4">
                     <h2>Tooltips and popovers</h2>
-                    <p><a href="#">Tooltips</a> and <a href="#">popovers</a> can be placed within
-                      modals as needed. When modals are closed, any tooltips and popovers within
-                      are also automatically dismissed.</p>
+                    <p><a href="#">Tooltips</a> and <a href="#">popovers</a> can be placed within modals as needed. When modals are closed, any tooltips and popovers within are also automatically dismissed.</p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-tooltips-popovers" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-tooltips-popovers-design-tab" data-bs-toggle="pill"
-                          href="#pills-tooltips-popovers-design" role="tab"
-                          aria-controls="pills-tooltips-popovers-design" aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-tooltips-popovers-design-tab" data-bs-toggle="pill" href="#pills-tooltips-popovers-design" role="tab" aria-controls="pills-tooltips-popovers-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-tooltips-popovers-html-tab" data-bs-toggle="pill"
-                          href="#pills-tooltips-popovers-html" role="tab" aria-controls="pills-tooltips-popovers-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-tooltips-popovers-html-tab" data-bs-toggle="pill" href="#pills-tooltips-popovers-html" role="tab" aria-controls="pills-tooltips-popovers-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-tooltips-popovers">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-tooltips-popovers-design"
-                        role="tabpanel" aria-labelledby="pills-tooltips-popovers-design-tab">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                          data-bs-target="#exampleModalPopovers">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-tooltips-popovers-design" role="tabpanel" aria-labelledby="pills-tooltips-popovers-design-tab">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalPopovers">
                           Launch demo modal
                         </button>
-                        <div class="modal fade" id="exampleModalPopovers" tabindex="-1" role="dialog"
-                          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="exampleModalPopovers" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                           <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
@@ -663,10 +499,8 @@
                               </div>
                               <div class="modal-body">
                                 <h5>Popover in a modal</h5>
-                                <p>This <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover"
-                                    title="Popover title" data-content="Popover body content is set in this attribute."
-                                    data-container="#exampleModalPopovers">button</a>
-                                  triggers a popover on click.</p>
+                                <p>This <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-content="Popover body content is set in this attribute." data-container="#exampleModalPopovers">button</a> triggers
+                                  a popover on click.</p>
                                 <hr>
 
                                 <h5>Tooltips in a modal</h5>
@@ -684,8 +518,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-tooltips-popovers-html" role="tabpanel"
-                        aria-labelledby="pills-tooltips-popovers-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-tooltips-popovers-html" role="tabpanel" aria-labelledby="pills-tooltips-popovers-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal-body<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
@@ -703,48 +536,38 @@
                 </div>
               </div>
               <!-- Tooltips and popovers -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Varying modal content -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="varying-modal-content" class="mb-4">
                     <h2>Varying modal content</h2>
-                    <p>Have a bunch of buttons that all trigger the same modal with slightly different contents? Use <code>event.relatedTarget</code> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">HTML <code>data-bs-*</code> attributes</a> to vary the contents of the modal depending on which button was clicked.</p>
+                    <p>Have a bunch of buttons that all trigger the same modal with slightly different contents? Use <code>event.relatedTarget</code> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">HTML <code>data-bs-*</code> attributes</a>                      to vary the contents of the modal depending on which button was clicked.</p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-varying-modal-content" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-varying-modal-content-design-tab" data-bs-toggle="pill"
-                          href="#pills-varying-modal-content-design" role="tab"
-                          aria-controls="pills-varying-modal-content-design" aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-varying-modal-content-design-tab" data-bs-toggle="pill" href="#pills-varying-modal-content-design" role="tab" aria-controls="pills-varying-modal-content-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-varying-modal-content-html-tab" data-bs-toggle="pill"
-                          href="#pills-varying-modal-content-html" role="tab"
-                          aria-controls="pills-varying-modal-content-html" aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-varying-modal-content-html-tab" data-bs-toggle="pill" href="#pills-varying-modal-content-html" role="tab" aria-controls="pills-varying-modal-content-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-varying-modal-content">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-varying-modal-content-design"
-                        role="tabpanel" aria-labelledby="pills-varying-modal-content-design-tab">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                          data-whatever="@mdo">Open modal for
+                      <div class="tab-pane tab-example-design fade show active" id="pills-varying-modal-content-design" role="tabpanel" aria-labelledby="pills-varying-modal-content-design-tab">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@mdo">Open modal for
                           @mdo</button>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                          data-whatever="@fat">Open modal for
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@fat">Open modal for
                           @fat</button>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                          data-whatever="@getbootstrap">Open modal
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@getbootstrap">Open modal
                           for @getbootstrap</button>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                          aria-labelledby="exampleModalLabelOne" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelOne" aria-hidden="true">
                           <div class="modal-dialog" role="document">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabelOne">New
-                                  message
+                                <h5 class="modal-title" id="exampleModalLabelOne">New message
                                 </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
@@ -771,8 +594,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-varying-modal-content-html" role="tabpanel"
-                        aria-labelledby="pills-varying-modal-content-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-varying-modal-content-html" role="tabpanel" aria-labelledby="pills-varying-modal-content-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup">   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn btn-primary<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#exampleModal<span class="token punctuation">"</span></span> <span class="token attr-name">data-whatever</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>@mdo<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Open modal for @mdo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
@@ -814,41 +636,31 @@
                 </div>
               </div>
               <!-- Varying modal content -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Link Alert -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="optional-sizes" class="mb-4">
                     <h2>Optional sizes</h2>
-                    <p>Modals have three optional sizes, available via modifier classes to be placed
-                      on a <code class="highlighter-rouge">.modal-dialog</code>. These sizes kick
-                      in at certain breakpoints to avoid horizontal scrollbars
-                      on narrower viewports.
+                    <p>Modals have three optional sizes, available via modifier classes to be placed on a <code class="highlighter-rouge">.modal-dialog</code>. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports.
                     </p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-alert-link" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-alert-link-design-tab" data-bs-toggle="pill"
-                          href="#pills-alert-link-design" role="tab" aria-controls="pills-alert-link-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-alert-link-design-tab" data-bs-toggle="pill" href="#pills-alert-link-design" role="tab" aria-controls="pills-alert-link-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-alert-link-html-tab" data-bs-toggle="pill"
-                          href="#pills-alert-link-html" role="tab" aria-controls="pills-alert-link-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-alert-link-html-tab" data-bs-toggle="pill" href="#pills-alert-link-html" role="tab" aria-controls="pills-alert-link-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-alert-link">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-alert-link-design"
-                        role="tabpanel" aria-labelledby="pills-alert-link-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-alert-link-design" role="tabpanel" aria-labelledby="pills-alert-link-design-tab">
                         <!-- Extra large modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                          data-bs-target=".gd-example-modal-xl">Extra large modal</button>
-                        <div class="modal fade gd-example-modal-xl" tabindex="-1" role="dialog"
-                          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".gd-example-modal-xl">Extra large modal</button>
+                        <div class="modal fade gd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
                           <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                               <div class="modal-header">
@@ -865,15 +677,12 @@
                           </div>
                         </div>
                         <!-- Large modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                          data-bs-target=".gd-example-modal-lg">Large modal</button>
-                        <div class="modal fade gd-example-modal-lg" tabindex="-1" role="dialog"
-                          aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".gd-example-modal-lg">Large modal</button>
+                        <div class="modal fade gd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title h4" id="myLargeModalLabel">Large
-                                  modal
+                                <h5 class="modal-title h4" id="myLargeModalLabel">Large modal
                                 </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
@@ -886,15 +695,12 @@
                           </div>
                         </div>
                         <!-- Small modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                          data-bs-target=".gd-example-modal-sm">Small modal</button>
-                        <div class="modal fade gd-example-modal-sm" tabindex="-1" role="dialog"
-                          aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".gd-example-modal-sm">Small modal</button>
+                        <div class="modal fade gd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                           <div class="modal-dialog modal-sm">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title h4" id="mySmallModalLabel">Small
-                                  modal
+                                <h5 class="modal-title h4" id="mySmallModalLabel">Small modal
                                 </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
@@ -907,8 +713,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-alert-link-html" role="tabpanel"
-                        aria-labelledby="pills-alert-link-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-alert-link-html" role="tabpanel" aria-labelledby="pills-alert-link-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token comment">&lt;!-- Extra large modal --&gt;</span>
@@ -946,8 +751,8 @@
                 </div>
               </div>
               <!-- Link Alert -->
-                </div>
-              </div>
+            </div>
+          </div>
 
         </div>
       </div>

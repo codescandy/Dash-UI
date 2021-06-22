@@ -1,162 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        @@include("../partials/head.html")
-        <title>Typography | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
-    </head>
-    <body >
-        <div id="db-wrapper">
-            @@include('../partials/navbar-vertical.html', {
 
+<head>
+  @@include("../partials/head.html")
+  <title>Typography | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
+</head>
 
-                "page": "typography",
-                "page_group": "utilities"
-
-
-            })
-            <div id="page-content">
-                @@include("../partials/header.html")
-                <div class="container-fluid py-12 px-6 px-xl-0">
-                    <div class="row">
-                        <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <!-- Content -->
-                            <div class="docs-content">
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div class="mb-7" id="intro">
-                                            <h1 class="mb-2">Typography</h1>
-                                            <p class="mb-0 lead text-dark">
-                                                Documentation and examples for Bootstrap typography, including global
-                          settings, headings, body text, lists, and more.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Headings -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="headings" class="mb-4">
-                                            <h2>Headings</h2>
-                                            <p>All HTML headings,
-                                                <code class="highlighter-rouge">&lt;h1&gt;</code>
-                                                through
-                                                <code class="highlighter-rouge">&lt;h6&gt;</code>, are available.
-                                            </p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-headings" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-headings-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-headings-design"
-                                                        role="tab"
-                                                        aria-controls="pills-headings-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-headings-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-headings-html"
-                                                        role="tab"
-                                                        aria-controls="pills-headings-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-headings">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-headings-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-headings-design-tab"
-                                                >
-                                                    <table class="table table-bordered">
-                                                        <thead class="table-light">
-                                                            <tr>
-                                                                <th>Heading</th>
-                                                                <th>Example</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <p>
-                                                                        <code class="highlighter-rouge">&lt;h1&gt;&lt;/h1&gt;</code>
-                                                                    </p>
-                                                                </td>
-                                                                <td>
-                                                                    <span class="h1">h1. Bootstrap heading</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p>
-                                                                        <code class="highlighter-rouge">&lt;h2&gt;&lt;/h2&gt;</code>
-                                                                    </p>
-                                                                </td>
-                                                                <td>
-                                                                    <span class="h2">h2. Bootstrap heading</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p>
-                                                                        <code class="highlighter-rouge">&lt;h3&gt;&lt;/h3&gt;</code>
-                                                                    </p>
-                                                                </td>
-                                                                <td>
-                                                                    <span class="h3">h3. Bootstrap heading</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p>
-                                                                        <code class="highlighter-rouge">&lt;h4&gt;&lt;/h4&gt;</code>
-                                                                    </p>
-                                                                </td>
-                                                                <td>
-                                                                    <span class="h4">h4. Bootstrap heading</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p>
-                                                                        <code class="highlighter-rouge">&lt;h5&gt;&lt;/h5&gt;</code>
-                                                                    </p>
-                                                                </td>
-                                                                <td>
-                                                                    <span class="h5">h5. Bootstrap heading</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p>
-                                                                        <code class="highlighter-rouge">&lt;h6&gt;&lt;/h6&gt;</code>
-                                                                    </p>
-                                                                </td>
-                                                                <td>
-                                                                    <span class="h6">h6. Bootstrap heading</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-headings-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-headings-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+<body>
+  <div id="db-wrapper">
+    @@include('../partials/navbar-vertical.html', { "page": "typography", "page_group": "utilities" })
+    <div id="page-content">
+      @@include("../partials/header.html")
+      <div class="container-fluid py-12 px-6 px-xl-0">
+        <div class="row">
+          <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
+            <!-- Content -->
+            <div class="docs-content">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="mb-7" id="intro">
+                    <h1 class="mb-2">Typography</h1>
+                    <p class="mb-0 lead text-dark">
+                      Documentation and examples for Bootstrap typography, including global settings, headings, body text, lists, and more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Headings -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="headings" class="mb-4">
+                    <h2>Headings</h2>
+                    <p>All HTML headings,
+                      <code class="highlighter-rouge">&lt;h1&gt;</code> through
+                      <code class="highlighter-rouge">&lt;h6&gt;</code>, are available.
+                    </p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-headings" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-headings-design-tab" data-bs-toggle="pill" href="#pills-headings-design" role="tab" aria-controls="pills-headings-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-headings-htms-tab" data-bs-toggle="pill" href="#pills-headings-html" role="tab" aria-controls="pills-headings-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-headings">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-headings-design" role="tabpanel" aria-labelledby="pills-headings-design-tab">
+                        <table class="table table-bordered">
+                          <thead class="table-light">
+                            <tr>
+                              <th>Heading</th>
+                              <th>Example</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <p>
+                                  <code class="highlighter-rouge">&lt;h1&gt;&lt;/h1&gt;</code>
+                                </p>
+                              </td>
+                              <td>
+                                <span class="h1">h1. Bootstrap heading</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p>
+                                  <code class="highlighter-rouge">&lt;h2&gt;&lt;/h2&gt;</code>
+                                </p>
+                              </td>
+                              <td>
+                                <span class="h2">h2. Bootstrap heading</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p>
+                                  <code class="highlighter-rouge">&lt;h3&gt;&lt;/h3&gt;</code>
+                                </p>
+                              </td>
+                              <td>
+                                <span class="h3">h3. Bootstrap heading</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p>
+                                  <code class="highlighter-rouge">&lt;h4&gt;&lt;/h4&gt;</code>
+                                </p>
+                              </td>
+                              <td>
+                                <span class="h4">h4. Bootstrap heading</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p>
+                                  <code class="highlighter-rouge">&lt;h5&gt;&lt;/h5&gt;</code>
+                                </p>
+                              </td>
+                              <td>
+                                <span class="h5">h5. Bootstrap heading</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p>
+                                  <code class="highlighter-rouge">&lt;h6&gt;&lt;/h6&gt;</code>
+                                </p>
+                              </td>
+                              <td>
+                                <span class="h6">h6. Bootstrap heading</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-headings-html" role="tabpanel" aria-labelledby="pills-headings-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -220,103 +187,74 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Headings -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Display headings -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="display-headings" class="mb-4">
-                                            <h2>Display headings</h2>
-                                            <p>
-                                                Traditional heading elements are designed to work best in the meat of your page content. When you
-                          need a heading to stand out, consider using a
-                                                <strong>display heading</strong>
-                                                —a larger, slightly more opinionated heading style. Keep in mind
-                          these headings are not responsive by default, but it’s possible to enable
-                                                <a href="#">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Headings -->
+              <hr class="my-10">
+              <!-- Display headings -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="display-headings" class="mb-4">
+                    <h2>Display headings</h2>
+                    <p>
+                      Traditional heading elements are designed to work best in the meat of your page content. When you need a heading to stand out, consider using a
+                      <strong>display heading</strong> —a larger, slightly more opinionated heading style. Keep in mind these headings are not responsive by default, but it’s possible to enable
+                      <a href="#">
                                                     responsive
                             font sizes
                                                 </a>.
-                                            </p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-display-headings" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-display-headings-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-display-headings-design"
-                                                        role="tab"
-                                                        aria-controls="pills-display-headings-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-display-headings-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-display-headings-html"
-                                                        role="tab"
-                                                        aria-controls="pills-display-headings-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-display-headings">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-display-headings-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-display-headings-design-tab"
-                                                >
-                                                    <table class="table">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="border-top-0">
-                                                                    <span class="display-1">
+                    </p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-display-headings" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-display-headings-design-tab" data-bs-toggle="pill" href="#pills-display-headings-design" role="tab" aria-controls="pills-display-headings-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-display-headings-htms-tab" data-bs-toggle="pill" href="#pills-display-headings-html" role="tab" aria-controls="pills-display-headings-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-display-headings">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-display-headings-design" role="tabpanel" aria-labelledby="pills-display-headings-design-tab">
+                        <table class="table">
+                          <tbody>
+                            <tr>
+                              <td class="border-top-0">
+                                <span class="display-1">
                                                                         Display
                                       1
                                                                     </span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <span class="display-2">Display 2</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <span class="display-3">Display 3</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <span class="display-4">Display 4</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-display-headings-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-display-headings-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <span class="display-2">Display 2</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <span class="display-3">Display 3</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <span class="display-4">Display 4</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-display-headings-html" role="tabpanel" aria-labelledby="pills-display-headings-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -384,73 +322,43 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Display headings -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Body Text -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="body" class="mb-4">
-                                            <h2>Body text</h2>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-body-text" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-body-text-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-body-text-design"
-                                                        role="tab"
-                                                        aria-controls="pills-body-text-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-body-text-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-body-text-html"
-                                                        role="tab"
-                                                        aria-controls="pills-body-text-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-body-text">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-body-text-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-body-text-design-tab"
-                                                >
-                                                    <p>
-                                                        In ultricies fermentum aliquet. Pellentesque dui magna, condimentum non ullamcorper at,
-                              cursus in sem. Nunc condimentum, purus ac sagittis ultricies, metus leo pharetra mi, non
-                              vehicula felis elit et nisi.
-                              Etiam venenatis commodo libero, vel ullamcorper nibh lobortis vel. Aliquam auctor porta
-                              tortor, nec consequat nibh finibus a. Sed ultrices risus eget iaculis luctus. Mauris vel
-                              gravida magna.
-                                                    </p>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-body-text-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-body-text-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Display headings -->
+              <hr class="my-10">
+              <!-- Body Text -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="body" class="mb-4">
+                    <h2>Body text</h2>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-body-text" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-body-text-design-tab" data-bs-toggle="pill" href="#pills-body-text-design" role="tab" aria-controls="pills-body-text-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-body-text-htms-tab" data-bs-toggle="pill" href="#pills-body-text-html" role="tab" aria-controls="pills-body-text-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-body-text">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-body-text-design" role="tabpanel" aria-labelledby="pills-body-text-design-tab">
+                        <p>
+                          In ultricies fermentum aliquet. Pellentesque dui magna, condimentum non ullamcorper at, cursus in sem. Nunc condimentum, purus ac sagittis ultricies, metus leo pharetra mi, non vehicula felis elit et nisi. Etiam venenatis commodo libero, vel ullamcorper
+                          nibh lobortis vel. Aliquam auctor porta tortor, nec consequat nibh finibus a. Sed ultrices risus eget iaculis luctus. Mauris vel gravida magna.
+                        </p>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-body-text-html" role="tabpanel" aria-labelledby="pills-body-text-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -464,72 +372,45 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Body Text -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Lead Text -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="lead" class="mb-4">
-                                            <h2>Lead text</h2>
-                                            <p>Make a paragraph stand out by adding
-                                                <code class="highlighter-rouge">.lead</code>.
-                                            </p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-lead-text" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-lead-text-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-lead-text-design"
-                                                        role="tab"
-                                                        aria-controls="pills-lead-text-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-lead-text-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-lead-text-html"
-                                                        role="tab"
-                                                        aria-controls="pills-lead-text-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-lead-text">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-lead-text-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-lead-text-design-tab"
-                                                >
-                                                    <p class="lead">
-                                                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non
-                              commodo luctus.
-                                                    </p>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-lead-text-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-lead-text-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Body Text -->
+              <hr class="my-10">
+              <!-- Lead Text -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="lead" class="mb-4">
+                    <h2>Lead text</h2>
+                    <p>Make a paragraph stand out by adding
+                      <code class="highlighter-rouge">.lead</code>.
+                    </p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-lead-text" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-lead-text-design-tab" data-bs-toggle="pill" href="#pills-lead-text-design" role="tab" aria-controls="pills-lead-text-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-lead-text-htms-tab" data-bs-toggle="pill" href="#pills-lead-text-html" role="tab" aria-controls="pills-lead-text-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-lead-text">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-lead-text-design" role="tabpanel" aria-labelledby="pills-lead-text-design-tab">
+                        <p class="lead">
+                          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                        </p>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-lead-text-html" role="tabpanel" aria-labelledby="pills-lead-text-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -550,99 +431,73 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Lead Text -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Inline text elements -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="inline-text-elements" class="mb-4">
-                                            <h2>Inline text elements</h2>
-                                            <p>Styling for common inline HTML5 elements.</p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-inline-text-elements" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-inline-text-elements-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-inline-text-elements-design"
-                                                        role="tab"
-                                                        aria-controls="pills-inline-text-elements-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-inline-text-elements-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-inline-text-elements-html"
-                                                        role="tab"
-                                                        aria-controls="pills-inline-text-elements-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-inline-text-elements">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-inline-text-elements-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-inline-text-elements-design-tab"
-                                                >
-                                                    <p>You can use the mark tag to
-                                                        <mark>highlight</mark> text.
-                                                    </p>
-                                                    <p>
-                                                        <del>This line of text is meant to be treated as deleted text.</del>
-                                                    </p>
-                                                    <p>
-                                                        <s>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Lead Text -->
+              <hr class="my-10">
+              <!-- Inline text elements -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="inline-text-elements" class="mb-4">
+                    <h2>Inline text elements</h2>
+                    <p>Styling for common inline HTML5 elements.</p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-inline-text-elements" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-inline-text-elements-design-tab" data-bs-toggle="pill" href="#pills-inline-text-elements-design" role="tab" aria-controls="pills-inline-text-elements-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-inline-text-elements-htms-tab" data-bs-toggle="pill" href="#pills-inline-text-elements-html" role="tab" aria-controls="pills-inline-text-elements-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-inline-text-elements">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-inline-text-elements-design" role="tabpanel" aria-labelledby="pills-inline-text-elements-design-tab">
+                        <p>You can use the mark tag to
+                          <mark>highlight</mark> text.
+                        </p>
+                        <p>
+                          <del>This line of text is meant to be treated as deleted text.</del>
+                        </p>
+                        <p>
+                          <s>
                                                             This line of text is meant to be treated as no longer
                                 accurate.
                                                         </s>
-                                                    </p>
-                                                    <p>
-                                                        <ins>
+                        </p>
+                        <p>
+                          <ins>
                                                             This line of text is meant to be treated as an addition to the
                                 document.
                                                         </ins>
-                                                    </p>
-                                                    <p>
-                                                        <u>This line of text will render as underlined</u>
-                                                    </p>
-                                                    <p>
-                                                        <small>
+                        </p>
+                        <p>
+                          <u>This line of text will render as underlined</u>
+                        </p>
+                        <p>
+                          <small>
                                                             This line of text is meant to be treated as fine
                                 print.
                                                         </small>
-                                                    </p>
-                                                    <p>
-                                                        <strong>This line rendered as bold text.</strong>
-                                                    </p>
-                                                    <p>
-                                                        <em>This line rendered as italicized text.</em>
-                                                    </p>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-inline-text-elements-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-inline-text-elements-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                        </p>
+                        <p>
+                          <strong>This line rendered as bold text.</strong>
+                        </p>
+                        <p>
+                          <em>This line rendered as italicized text.</em>
+                        </p>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-inline-text-elements-html" role="tabpanel" aria-labelledby="pills-inline-text-elements-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -806,77 +661,49 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Inline text elements -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Blockquotes -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="blockquotes" class="mb-4">
-                                            <h2>Blockquotes</h2>
-                                            <p>
-                                                For quoting blocks of content from another source within your document. Wrap
-                                                <code class="highlighter-rouge">&lt;blockquote class="blockquote"&gt;</code> around any
-                                                <abbr title="HyperText Markup Language">HTML</abbr>
-                                                as the quote.
-                                            </p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-blockquotes" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-blockquotes-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-blockquotes-design"
-                                                        role="tab"
-                                                        aria-controls="pills-blockquotes-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-blockquotes-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-blockquotes-html"
-                                                        role="tab"
-                                                        aria-controls="pills-blockquotes-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-blockquotes">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-blockquotes-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-blockquotes-design-tab"
-                                                >
-                                                    <blockquote class="blockquote">
-                                                        <p class="mb-0">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
-                                a ante.
-                                                        </p>
-                                                    </blockquote>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-blockquotes-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-blockquotes-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Inline text elements -->
+              <hr class="my-10">
+              <!-- Blockquotes -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="blockquotes" class="mb-4">
+                    <h2>Blockquotes</h2>
+                    <p>
+                      For quoting blocks of content from another source within your document. Wrap
+                      <code class="highlighter-rouge">&lt;blockquote class="blockquote"&gt;</code> around any
+                      <abbr title="HyperText Markup Language">HTML</abbr> as the quote.
+                    </p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-blockquotes" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-blockquotes-design-tab" data-bs-toggle="pill" href="#pills-blockquotes-design" role="tab" aria-controls="pills-blockquotes-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-blockquotes-htms-tab" data-bs-toggle="pill" href="#pills-blockquotes-html" role="tab" aria-controls="pills-blockquotes-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Content -->
+                    <div class="tab-content p-4" id="pills-tabContent-blockquotes">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-blockquotes-design" role="tabpanel" aria-labelledby="pills-blockquotes-design-tab">
+                        <blockquote class="blockquote">
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                          </p>
+                        </blockquote>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-blockquotes-html" role="tabpanel" aria-labelledby="pills-blockquotes-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -912,85 +739,56 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Blockquotes -->
-                                <!-- Naming a source -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="naming-a-source" class="mb-4 mt-4">
-                                            <h3>Naming a source</h3>
-                                            <p>Add a
-                                                <code class="highlighter-rouge">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Blockquotes -->
+              <!-- Naming a source -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="naming-a-source" class="mb-4 mt-4">
+                    <h3>Naming a source</h3>
+                    <p>Add a
+                      <code class="highlighter-rouge">
                                                     &lt;footer
                             class="blockquote-footer"&gt;
-                                                </code>
-                                                for identifying the source. Wrap the name of the source
-                          work in
-                                                <code class="highlighter-rouge">&lt;cite&gt;</code>.
-                                            </p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-naming-a-source" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-naming-a-source-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-naming-a-source-design"
-                                                        role="tab"
-                                                        aria-controls="pills-naming-a-source-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-naming-a-source-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-naming-a-source-html"
-                                                        role="tab"
-                                                        aria-controls="pills-naming-a-source-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-naming-a-source">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-naming-a-source-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-naming-a-source-design-tab"
-                                                >
-                                                    <blockquote class="blockquote">
-                                                        <p class="mb-0">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
-                                a ante.
-                                                        </p>
-                                                        <footer class="blockquote-footer ms-3">Someone famous in
-                                                            <cite title="Source Title">
+                                                </code> for identifying the source. Wrap the name of the source work in
+                      <code class="highlighter-rouge">&lt;cite&gt;</code>.
+                    </p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-naming-a-source" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-naming-a-source-design-tab" data-bs-toggle="pill" href="#pills-naming-a-source-design" role="tab" aria-controls="pills-naming-a-source-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-naming-a-source-htms-tab" data-bs-toggle="pill" href="#pills-naming-a-source-html" role="tab" aria-controls="pills-naming-a-source-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Content -->
+                    <div class="tab-content p-4" id="pills-tabContent-naming-a-source">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-naming-a-source-design" role="tabpanel" aria-labelledby="pills-naming-a-source-design-tab">
+                        <blockquote class="blockquote">
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                          </p>
+                          <footer class="blockquote-footer ms-3">Someone famous in
+                            <cite title="Source Title">
                                                                 Source
                                   Title
                                                             </cite>
-                                                        </footer>
-                                                    </blockquote>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-naming-a-source-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-naming-a-source-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </footer>
+                        </blockquote>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-naming-a-source-html" role="tabpanel" aria-labelledby="pills-naming-a-source-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -1058,77 +856,50 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Naming a source -->
-                                <!-- Alignment -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="alignment" class="mb-4 mt-4">
-                                            <h3>Alignment</h3>
-                                            <p>Use text utilities as needed to change the alignment of your blockquote.</p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-alignment" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-alignment-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-alignment-design"
-                                                        role="tab"
-                                                        aria-controls="pills-alignment-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-alignment-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-alignment-html"
-                                                        role="tab"
-                                                        aria-controls="pills-alignment-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-alignment">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-alignment-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-alignment-design-tab"
-                                                >
-                                                    <blockquote class="blockquote text-center">
-                                                        <p class="mb-0">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
-                                a ante.
-                                                        </p>
-                                                        <footer class="blockquote-footer ms-3">Someone famous in
-                                                            <cite title="Source Title">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Naming a source -->
+              <!-- Alignment -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="alignment" class="mb-4 mt-4">
+                    <h3>Alignment</h3>
+                    <p>Use text utilities as needed to change the alignment of your blockquote.</p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-alignment" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-alignment-design-tab" data-bs-toggle="pill" href="#pills-alignment-design" role="tab" aria-controls="pills-alignment-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-alignment-htms-tab" data-bs-toggle="pill" href="#pills-alignment-html" role="tab" aria-controls="pills-alignment-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Content -->
+                    <div class="tab-content p-4" id="pills-tabContent-alignment">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-alignment-design" role="tabpanel" aria-labelledby="pills-alignment-design-tab">
+                        <blockquote class="blockquote text-center">
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                          </p>
+                          <footer class="blockquote-footer ms-3">Someone famous in
+                            <cite title="Source Title">
                                                                 Source
                                   Title
                                                             </cite>
-                                                        </footer>
-                                                    </blockquote>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-alignment-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-alignment-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </footer>
+                        </blockquote>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-alignment-html" role="tabpanel" aria-labelledby="pills-alignment-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -1196,73 +967,46 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Alignment -->
-                                <!-- Alignment-right -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-alignment-right" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-alignment-right-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-alignment-right-design"
-                                                        role="tab"
-                                                        aria-controls="pills-alignment-right-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-alignment-right-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-alignment-right-html"
-                                                        role="tab"
-                                                        aria-controls="pills-alignment-right-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-alignment-right">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-alignment-right-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-alignment-right-design-tab"
-                                                >
-                                                    <blockquote class="blockquote text-end">
-                                                        <p class="mb-0">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
-                                a ante.
-                                                        </p>
-                                                        <footer class="blockquote-footer ms-3">Someone famous in
-                                                            <cite title="Source Title">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Alignment -->
+              <!-- Alignment-right -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-alignment-right" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-alignment-right-design-tab" data-bs-toggle="pill" href="#pills-alignment-right-design" role="tab" aria-controls="pills-alignment-right-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-alignment-right-htms-tab" data-bs-toggle="pill" href="#pills-alignment-right-html" role="tab" aria-controls="pills-alignment-right-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-alignment-right">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-alignment-right-design" role="tabpanel" aria-labelledby="pills-alignment-right-design-tab">
+                        <blockquote class="blockquote text-end">
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                          </p>
+                          <footer class="blockquote-footer ms-3">Someone famous in
+                            <cite title="Source Title">
                                                                 Source
                                   Title
                                                             </cite>
-                                                        </footer>
-                                                    </blockquote>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-alignment-right-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-alignment-right-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </footer>
+                        </blockquote>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-alignment-right-html" role="tabpanel" aria-labelledby="pills-alignment-right-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -1330,97 +1074,67 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Alignment-right -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Lists -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="lists" class="mb-4">
-                                            <h2>Lists</h2>
-                                            <div class="mt-4" id="unstyled">
-                                                <h3>Unstyled</h3>
-                                                <p>Remove the default
-                                                    <code class="highlighter-rouge">list-style</code>
-                                                    and left margin on list
-                            items (immediate children only).
-                                                    <strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Alignment-right -->
+              <hr class="my-10">
+              <!-- Lists -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="lists" class="mb-4">
+                    <h2>Lists</h2>
+                    <div class="mt-4" id="unstyled">
+                      <h3>Unstyled</h3>
+                      <p>Remove the default
+                        <code class="highlighter-rouge">list-style</code> and left margin on list items (immediate children only).
+                        <strong>
                                                         This only
                               applies to immediate children list items
-                                                    </strong>
-                                                    , meaning you will need to add the class for
-                            any nested lists as well.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-unstyled-list" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-unstyled-list-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-unstyled-list-design"
-                                                        role="tab"
-                                                        aria-controls="pills-unstyled-list-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-unstyled-list-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-unstyled-list-html"
-                                                        role="tab"
-                                                        aria-controls="pills-unstyled-list-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- tab Content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-unstyled-list">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-unstyled-list-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-unstyled-list-design-tab"
-                                                >
-                                                    <ul class="list-unstyled">
-                                                        <li>Lorem ipsum dolor sit amet</li>
-                                                        <li>Consectetur adipiscing elit</li>
-                                                        <li>Integer molestie lorem at massa</li>
-                                                        <li>Facilisis in pretium nisl aliquet</li>
-                                                        <li>
-                                                            Nulla volutpat aliquam velit
-                                                            <ul>
-                                                                <li>Phasellus iaculis neque</li>
-                                                                <li>Purus sodales ultricies</li>
-                                                                <li>Vestibulum laoreet porttitor sem</li>
-                                                                <li>Ac tristique libero volutpat at</li>
-                                                            </ul>
-                                                        </li>
-                                                        <li>Faucibus porta lacus fringilla vel</li>
-                                                        <li>Aenean sit amet erat nunc</li>
-                                                        <li>Eget porttitor lorem</li>
-                                                    </ul>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-unstyled-list-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-unstyled-list-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                                                    </strong> , meaning you will need to add the class for any nested lists as well.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-unstyled-list" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-unstyled-list-design-tab" data-bs-toggle="pill" href="#pills-unstyled-list-design" role="tab" aria-controls="pills-unstyled-list-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-unstyled-list-htms-tab" data-bs-toggle="pill" href="#pills-unstyled-list-html" role="tab" aria-controls="pills-unstyled-list-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- tab Content -->
+                    <div class="tab-content p-4" id="pills-tabContent-unstyled-list">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-unstyled-list-design" role="tabpanel" aria-labelledby="pills-unstyled-list-design-tab">
+                        <ul class="list-unstyled">
+                          <li>Lorem ipsum dolor sit amet</li>
+                          <li>Consectetur adipiscing elit</li>
+                          <li>Integer molestie lorem at massa</li>
+                          <li>Facilisis in pretium nisl aliquet</li>
+                          <li>
+                            Nulla volutpat aliquam velit
+                            <ul>
+                              <li>Phasellus iaculis neque</li>
+                              <li>Purus sodales ultricies</li>
+                              <li>Vestibulum laoreet porttitor sem</li>
+                              <li>Ac tristique libero volutpat at</li>
+                            </ul>
+                          </li>
+                          <li>Faucibus porta lacus fringilla vel</li>
+                          <li>Aenean sit amet erat nunc</li>
+                          <li>Eget porttitor lorem</li>
+                        </ul>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-unstyled-list-html" role="tabpanel" aria-labelledby="pills-unstyled-list-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -1571,77 +1285,49 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Lists -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Inline -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="inline" class="mb-4">
-                                            <h3>Inline</h3>
-                                            <p>Remove a list’s bullets and apply some light
-                                                <code class="highlighter-rouge">margin</code>
-                                                with a
-                          combination of two classes,
-                                                <code class="highlighter-rouge">.list-inline</code> and
-                                                <code class="highlighter-rouge">.list-inline-item</code>.
-                                            </p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-inline-list" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-inline-list-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-inline-list-design"
-                                                        role="tab"
-                                                        aria-controls="pills-inline-list-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-inline-list-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-inline-list-html"
-                                                        role="tab"
-                                                        aria-controls="pills-inline-list-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-inline-list">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-inline-list-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-inline-list-design-tab"
-                                                >
-                                                    <ul class="list-inline">
-                                                        <li class="list-inline-item">Lorem ipsum</li>
-                                                        <li class="list-inline-item">Phasellus iaculis</li>
-                                                        <li class="list-inline-item">Nulla volutpat</li>
-                                                    </ul>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-inline-list-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-inline-list-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Lists -->
+              <hr class="my-10">
+              <!-- Inline -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="inline" class="mb-4">
+                    <h3>Inline</h3>
+                    <p>Remove a list’s bullets and apply some light
+                      <code class="highlighter-rouge">margin</code> with a combination of two classes,
+                      <code class="highlighter-rouge">.list-inline</code> and
+                      <code class="highlighter-rouge">.list-inline-item</code>.
+                    </p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-inline-list" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-inline-list-design-tab" data-bs-toggle="pill" href="#pills-inline-list-design" role="tab" aria-controls="pills-inline-list-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-inline-list-htms-tab" data-bs-toggle="pill" href="#pills-inline-list-html" role="tab" aria-controls="pills-inline-list-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-inline-list">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-inline-list-design" role="tabpanel" aria-labelledby="pills-inline-list-design-tab">
+                        <ul class="list-inline">
+                          <li class="list-inline-item">Lorem ipsum</li>
+                          <li class="list-inline-item">Phasellus iaculis</li>
+                          <li class="list-inline-item">Nulla volutpat</li>
+                        </ul>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-inline-list-html" role="tabpanel" aria-labelledby="pills-inline-list-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -1709,101 +1395,71 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Inline -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Description list alignment -->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="description-list-alignment" class="mb-4">
-                                            <h3>Description list alignment</h3>
-                                            <p>
-                                                Align terms and descriptions horizontally by using our grid system’s predefined classes (or
-                          semantic mixins). For longer terms, you can optionally add a
-                                                <code class="highlighter-rouge">.text-truncate</code>
-                                                class
-                          to truncate the text with an ellipsis.
-                                            </p>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-description-list-alignment" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-description-list-alignment-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-description-list-alignment-design"
-                                                        role="tab"
-                                                        aria-controls="pills-description-list-alignment-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-description-list-alignment-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-description-list-alignment-html"
-                                                        role="tab"
-                                                        aria-controls="pills-description-list-alignment-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-description-list-alignment">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-description-list-alignment-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-description-list-alignment-design-tab"
-                                                >
-                                                    <dl class="row">
-                                                        <dt class="col-sm-3">Description lists</dt>
-                                                        <dd class="col-sm-9">
-                                                            A description list is perfect for defining terms.
-                                                        </dd>
-                                                        <dt class="col-sm-3">Euismod</dt>
-                                                        <dd class="col-sm-9">
-                                                            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-                                                            <p>Donec id elit non mi porta gravida at eget metus.</p>
-                                                        </dd>
-                                                        <dt class="col-sm-3">Malesuada porta</dt>
-                                                        <dd class="col-sm-9">
-                                                            Etiam porta sem malesuada magna mollis euismod.
-                                                        </dd>
-                                                        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-                                                        <dd class="col-sm-9">
-                                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-                                ut fermentum massa justo sit amet risus.
-                                                        </dd>
-                                                        <dt class="col-sm-3">Nesting</dt>
-                                                        <dd class="col-sm-9">
-                                                            <dl class="row">
-                                                                <dt class="col-sm-4">Nested definition list</dt>
-                                                                <dd class="col-sm-8">
-                                                                    Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.
-                                                                </dd>
-                                                            </dl>
-                                                        </dd>
-                                                    </dl>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-description-list-alignment-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-description-list-alignment-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Inline -->
+              <hr class="my-10">
+              <!-- Description list alignment -->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="description-list-alignment" class="mb-4">
+                    <h3>Description list alignment</h3>
+                    <p>
+                      Align terms and descriptions horizontally by using our grid system’s predefined classes (or semantic mixins). For longer terms, you can optionally add a
+                      <code class="highlighter-rouge">.text-truncate</code> class to truncate the text with an ellipsis.
+                    </p>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-description-list-alignment" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-description-list-alignment-design-tab" data-bs-toggle="pill" href="#pills-description-list-alignment-design" role="tab" aria-controls="pills-description-list-alignment-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-description-list-alignment-htms-tab" data-bs-toggle="pill" href="#pills-description-list-alignment-html" role="tab" aria-controls="pills-description-list-alignment-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-description-list-alignment">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-description-list-alignment-design" role="tabpanel" aria-labelledby="pills-description-list-alignment-design-tab">
+                        <dl class="row">
+                          <dt class="col-sm-3">Description lists</dt>
+                          <dd class="col-sm-9">
+                            A description list is perfect for defining terms.
+                          </dd>
+                          <dt class="col-sm-3">Euismod</dt>
+                          <dd class="col-sm-9">
+                            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+                            <p>Donec id elit non mi porta gravida at eget metus.</p>
+                          </dd>
+                          <dt class="col-sm-3">Malesuada porta</dt>
+                          <dd class="col-sm-9">
+                            Etiam porta sem malesuada magna mollis euismod.
+                          </dd>
+                          <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                          <dd class="col-sm-9">
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                          </dd>
+                          <dt class="col-sm-3">Nesting</dt>
+                          <dd class="col-sm-9">
+                            <dl class="row">
+                              <dt class="col-sm-4">Nested definition list</dt>
+                              <dd class="col-sm-8">
+                                Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-description-list-alignment-html" role="tabpanel" aria-labelledby="pills-description-list-alignment-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -2051,74 +1707,48 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Description list alignment -->
-                                <hr class="mb-7 mt-10">
-                                <!-- Letter Space-->
-                                <div class="row">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div id="letterspace" class="mb-4">
-                                            <h3>Letter Spacing</h3>
-                                        </div>
-                                        <!-- Card -->
-                                        <div class="card">
-                                            <ul class="nav nav-line-bottom" id="pills-tab-letterspace" role="tablist">
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link active"
-                                                        id="pills-letterspace-design-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-letterspace-design"
-                                                        role="tab"
-                                                        aria-controls="pills-letterspace-design"
-                                                        aria-selected="true"
-                                                    >Design</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a
-                                                        class="nav-link"
-                                                        id="pills-letterspace-htms-tab"
-                                                        data-bs-toggle="pill"
-                                                        href="#pills-letterspace-html"
-                                                        role="tab"
-                                                        aria-controls="pills-letterspace-html"
-                                                        aria-selected="false"
-                                                    >HTML</a>
-                                                </li>
-                                            </ul>
-                                            <!-- Tab content -->
-                                            <div class="tab-content p-4" id="pills-tabContent-letterspace">
-                                                <div
-                                                    class="tab-pane tab-example-design fade show active"
-                                                    id="pills-letterspace-design"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-letterspace-design-tab"
-                                                >
-                                                    <div>
-                                                        <h3 class="ls-xs mb-3">Heading Title of Letter space</h3>
-                                                        <h3 class="ls-sm mb-3">Heading Title of Letter space</h3>
-                                                        <h3 class="ls-base mb-3">Heading Title of Letter space</h3>
-                                                        <h3 class="ls-md mb-3">Heading Title of Letter space</h3>
-                                                        <h3 class="ls-lg mb-3">Heading Title of Letter space</h3>
-                                                        <h3 class="ls-xl mb-3">Heading Title of Letter space</h3>
-                                                        <h3 class="ls-xxl mb-3">Heading Title of Letter space</h3>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="tab-pane tab-example-html fade"
-                                                    id="pills-letterspace-html"
-                                                    role="tabpanel"
-                                                    aria-labelledby="pills-letterspace-htms-tab"
-                                                >
-                                                    <div class="copy-content copy-content-height">
-                                                        <div class="code-toolbar">
-                                                            <pre class="line-numbers language-markup">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Description list alignment -->
+              <hr class="my-10">
+              <!-- Letter Space-->
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div id="letterspace" class="mb-4">
+                    <h3>Letter Spacing</h3>
+                  </div>
+                  <!-- Card -->
+                  <div class="card">
+                    <ul class="nav nav-line-bottom" id="pills-tab-letterspace" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="pills-letterspace-design-tab" data-bs-toggle="pill" href="#pills-letterspace-design" role="tab" aria-controls="pills-letterspace-design" aria-selected="true">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="pills-letterspace-htms-tab" data-bs-toggle="pill" href="#pills-letterspace-html" role="tab" aria-controls="pills-letterspace-html" aria-selected="false">HTML</a>
+                      </li>
+                    </ul>
+                    <!-- Tab content -->
+                    <div class="tab-content p-4" id="pills-tabContent-letterspace">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-letterspace-design" role="tabpanel" aria-labelledby="pills-letterspace-design-tab">
+                        <div>
+                          <h3 class="ls-xs mb-3">Heading Title of Letter space</h3>
+                          <h3 class="ls-sm mb-3">Heading Title of Letter space</h3>
+                          <h3 class="ls-base mb-3">Heading Title of Letter space</h3>
+                          <h3 class="ls-md mb-3">Heading Title of Letter space</h3>
+                          <h3 class="ls-lg mb-3">Heading Title of Letter space</h3>
+                          <h3 class="ls-xl mb-3">Heading Title of Letter space</h3>
+                          <h3 class="ls-xxl mb-3">Heading Title of Letter space</h3>
+                        </div>
+                      </div>
+                      <div class="tab-pane tab-example-html fade" id="pills-letterspace-html" role="tabpanel" aria-labelledby="pills-letterspace-htms-tab">
+                        <div class="copy-content copy-content-height">
+                          <div class="code-toolbar">
+                            <pre class="line-numbers language-markup">
                                                                 <code class="language-markup">
                                                                     <span class="token tag">
                                                                         <span class="token tag">
@@ -2244,22 +1874,23 @@
                                                                     </span>
                                                                 </code>
                                                             </pre>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Description list alignment -->
-                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <!-- Description list alignment -->
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- Scripts -->
-    @@include("../partials/scripts.html")
+  </div>
+  </div>
+  <!-- Scripts -->
+  @@include("../partials/scripts.html")
 </body>
+
 </html>

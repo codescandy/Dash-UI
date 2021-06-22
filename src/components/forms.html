@@ -6,64 +6,50 @@
   <title>Forms | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
 </head>
 
-<body >
+<body>
   <div id="db-wrapper">
-    @@include('../partials/navbar-vertical.html', {
-
-
-      "page": "forms",
-      "page_group": "components"
-
-
-  })
+    @@include('../partials/navbar-vertical.html', { "page": "forms", "page_group": "components" })
 
     <div id="page-content">
       @@include("../partials/header.html")
 
       <div class="container-fluid py-12 px-6 px-xl-0">
         <div class="row">
-            <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
-                <!-- Content -->
-                <div class="docs-content">
-                  <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                      <div class="mb-7" id="intro">
-                        <h1 class="mb-2">Forms</h1>
-                        <p class="mb-0 lead text-dark">Examples and usage guidelines for form control styles, layout
-                          options, and custom components for creating a wide variety of forms.
-                        </p>
-                      </div>
-                    </div>
+          <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
+            <!-- Content -->
+            <div class="docs-content">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="mb-7" id="intro">
+                    <h1 class="mb-2">Forms</h1>
+                    <p class="mb-0 lead text-dark">Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.
+                    </p>
                   </div>
+                </div>
+              </div>
 
-                     <!-- basic-forms -->
+              <!-- basic-forms -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="basicForm" class="mb-4">
                     <h2>Basic Froms</h2>
                     <p>Textual form controls—like <code>&lt;input&gt;</code>s,
                       <code>&lt;select&gt;</code>s, and <code>&lt;textarea&gt;</code>s—are styled with the
-                      <code>.form-control</code> class. Included are styles for general appearance, focus state, sizing,
-                      and more.</p>
+                      <code>.form-control</code> class. Included are styles for general appearance, focus state, sizing, and more.</p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-basic-forms" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-basic-forms-design-tab" data-bs-toggle="pill"
-                          href="#pills-basic-forms-design" role="tab" aria-controls="pills-basic-forms-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-basic-forms-design-tab" data-bs-toggle="pill" href="#pills-basic-forms-design" role="tab" aria-controls="pills-basic-forms-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-basic-forms-html-tab" data-bs-toggle="pill"
-                          href="#pills-basic-forms-html" role="tab" aria-controls="pills-basic-forms-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-basic-forms-html-tab" data-bs-toggle="pill" href="#pills-basic-forms-html" role="tab" aria-controls="pills-basic-forms-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-basic-forms">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-basic-forms-design"
-                        role="tabpanel" aria-labelledby="pills-basic-forms-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-basic-forms-design" role="tabpanel" aria-labelledby="pills-basic-forms-design-tab">
                         <form>
                           <!-- Input -->
                           <div class="mb-3">
@@ -92,7 +78,7 @@
                           <div class="mb-3">
                             <label class="form-label" for="selectOne">Select <span
                                 class="text-secondary">(Optional)</span></label>
-                            <select id="selectOne" class="form-select" >
+                            <select id="selectOne" class="form-select">
                               <option>Choose an option</option>
                               <option>1</option>
                               <option>2</option>
@@ -115,13 +101,11 @@
                           <!-- Text Area -->
                           <div class="mb-3">
                             <label class="form-label" for="textareaInput">Textarea</label>
-                            <textarea id="textareaInput" class="form-control" placeholder="Textarea field"
-                              rows="4"></textarea>
+                            <textarea id="textareaInput" class="form-control" placeholder="Textarea field" rows="4"></textarea>
                           </div>
                         </form>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-basic-forms-html" role="tabpanel"
-                        aria-labelledby="pills-basic-forms-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-basic-forms-html" role="tabpanel" aria-labelledby="pills-basic-forms-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">&gt;</span></span>
@@ -191,32 +175,27 @@
                 </div>
               </div>
               <!-- basic-forms -->
-              <hr class="mb-5 mt-7">
+              <hr class="my-10">
               <!-- sizing -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="sizing" class="mb-4">
                     <h2>Sizing</h2>
-                    <p>Set heights using classes like <code class="highlighter-rouge">.form-control-lg</code> and <code
-                        class="highlighter-rouge">.form-control-sm</code>.</p>
+                    <p>Set heights using classes like <code class="highlighter-rouge">.form-control-lg</code> and <code class="highlighter-rouge">.form-control-sm</code>.</p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-sizing" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-sizing-design-tab" data-bs-toggle="pill"
-                          href="#pills-sizing-design" role="tab" aria-controls="pills-sizing-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-sizing-design-tab" data-bs-toggle="pill" href="#pills-sizing-design" role="tab" aria-controls="pills-sizing-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-sizing-html-tab" data-bs-toggle="pill" href="#pills-sizing-html"
-                          role="tab" aria-controls="pills-sizing-html" aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-sizing-html-tab" data-bs-toggle="pill" href="#pills-sizing-html" role="tab" aria-controls="pills-sizing-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-sizing">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-sizing-design" role="tabpanel"
-                        aria-labelledby="pills-sizing-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-sizing-design" role="tabpanel" aria-labelledby="pills-sizing-design-tab">
                         <div class="mb-3">
                           <input type="text" class="form-control form-control-lg" placeholder="Large input">
                         </div>
@@ -227,8 +206,7 @@
                           <input type="text" class="form-control form-control-sm" placeholder="Small input">
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-sizing-html" role="tabpanel"
-                        aria-labelledby="pills-sizing-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-sizing-html" role="tabpanel" aria-labelledby="pills-sizing-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup">
@@ -249,7 +227,7 @@
                 </div>
               </div>
               <!-- sizing -->
-              <hr class="mb-5 mt-7">
+              <hr class="my-10">
               <!-- select-sizes -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -264,20 +242,15 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-select-menu" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-select-menu-design-tab" data-bs-toggle="pill"
-                          href="#pills-select-menu-design" role="tab" aria-controls="pills-select-menu-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-select-menu-design-tab" data-bs-toggle="pill" href="#pills-select-menu-design" role="tab" aria-controls="pills-select-menu-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-select-menu-html-tab" data-bs-toggle="pill"
-                          href="#pills-select-menu-html" role="tab" aria-controls="pills-select-menu-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-select-menu-html-tab" data-bs-toggle="pill" href="#pills-select-menu-html" role="tab" aria-controls="pills-select-menu-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-select-menu">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-select-menu-design"
-                        role="tabpanel" aria-labelledby="pills-select-menu-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-select-menu-design" role="tabpanel" aria-labelledby="pills-select-menu-design-tab">
                         <select class="form-select">
                           <option selected>Open this select menu</option>
                           <option value="1">One</option>
@@ -285,8 +258,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-select-menu-html" role="tabpanel"
-                        aria-labelledby="pills-select-menu-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-select-menu-html" role="tabpanel" aria-labelledby="pills-select-menu-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-select<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
@@ -308,20 +280,15 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-select-sizes" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-select-sizes-design-tab" data-bs-toggle="pill"
-                          href="#pills-select-sizes-design" role="tab" aria-controls="pills-select-sizes-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-select-sizes-design-tab" data-bs-toggle="pill" href="#pills-select-sizes-design" role="tab" aria-controls="pills-select-sizes-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-select-sizes-html-tab" data-bs-toggle="pill"
-                          href="#pills-select-sizes-html" role="tab" aria-controls="pills-select-sizes-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-select-sizes-html-tab" data-bs-toggle="pill" href="#pills-select-sizes-html" role="tab" aria-controls="pills-select-sizes-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Content -->
                     <div class="tab-content p-4" id="pills-tabContent-select-sizes">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-select-sizes-design"
-                        role="tabpanel" aria-labelledby="pills-select-sizes-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-select-sizes-design" role="tabpanel" aria-labelledby="pills-select-sizes-design-tab">
                         <select class="form-select form-select-lg  mb-3">
                           <option selected>Open this select menu</option>
                           <option value="1">One</option>
@@ -335,8 +302,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-select-sizes-html" role="tabpanel"
-                        aria-labelledby="pills-select-sizes-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-select-sizes-html" role="tabpanel" aria-labelledby="pills-select-sizes-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>form-select form-select-lg mb-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
@@ -359,7 +325,7 @@
                 </div>
               </div>
               <!-- select-sizes -->
-              <hr class="mb-5 mt-7">
+              <hr class="my-10">
               <!-- validation -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -372,20 +338,15 @@
                   <div class="card mb-4">
                     <ul class="nav nav-line-bottom " id="pills-tab-validation" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-validation-design-tab" data-bs-toggle="pill"
-                          href="#pills-validation-design" role="tab" aria-controls="pills-validation-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-validation-design-tab" data-bs-toggle="pill" href="#pills-validation-design" role="tab" aria-controls="pills-validation-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-validation-html-tab" data-bs-toggle="pill"
-                          href="#pills-validation-html" role="tab" aria-controls="pills-validation-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-validation-html-tab" data-bs-toggle="pill" href="#pills-validation-html" role="tab" aria-controls="pills-validation-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-validation">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-validation-design"
-                        role="tabpanel" aria-labelledby="pills-validation-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-validation-design" role="tabpanel" aria-labelledby="pills-validation-design-tab">
                         <form class="row g-3 needs-validation" novalidate>
                           <div class="col-md-4">
                             <label for="validationCustom01" class="form-label">First name</label>
@@ -451,8 +412,7 @@
                           </div>
                         </form>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-validation-html" role="tabpanel"
-                        aria-labelledby="pills-validation-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-validation-html" role="tabpanel" aria-labelledby="pills-validation-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>row g-3 needs-validation<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">&gt;</span></span>
@@ -528,7 +488,7 @@
                 </div>
               </div>
               <!-- validation -->
-              <hr class="mb-5 mt-7">
+              <hr class="my-10">
               <!-- disabled -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -541,19 +501,15 @@
                   <div class="card mb-4">
                     <ul class="nav nav-line-bottom " id="pills-tab-disabled" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-disabled-design-tab" data-bs-toggle="pill"
-                          href="#pills-disabled-design" role="tab" aria-controls="pills-disabled-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-disabled-design-tab" data-bs-toggle="pill" href="#pills-disabled-design" role="tab" aria-controls="pills-disabled-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-disabled-html-tab" data-bs-toggle="pill" href="#pills-disabled-html"
-                          role="tab" aria-controls="pills-disabled-html" aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-disabled-html-tab" data-bs-toggle="pill" href="#pills-disabled-html" role="tab" aria-controls="pills-disabled-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-disabled">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-disabled-design"
-                        role="tabpanel" aria-labelledby="pills-disabled-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-disabled-design" role="tabpanel" aria-labelledby="pills-disabled-design-tab">
                         <form>
                           <fieldset disabled>
                             <legend>Disabled fieldset example</legend>
@@ -579,8 +535,7 @@
                           </fieldset>
                         </form>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-disabled-html" role="tabpanel"
-                        aria-labelledby="pills-disabled-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-disabled-html" role="tabpanel" aria-labelledby="pills-disabled-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">&gt;</span></span>
@@ -616,41 +571,33 @@
                 </div>
               </div>
               <!-- Disabled -->
-              <hr class="mb-5 mt-7">
+              <hr class="my-10">
               <!-- Range -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="range" class="mb-4">
                     <h2>Range</h2>
                     <p>Create custom <code class="highlighter-rouge">&lt;input
-                        type="range"&gt;</code> controls with <code class="highlighter-rouge">.custom-range.</code> The
-                      track (the background) and thumb (the value) are both styled to appear the same across browsers.
-                      As only IE
-                      and Firefox support “filling” their track from the left or right of the thumb as a means to
-                      visually indicate progress, we do not currently support it.</p>
+                        type="range"&gt;</code> controls with <code class="highlighter-rouge">.custom-range.</code> The track (the background) and thumb (the value) are both styled to appear the same across browsers. As only IE and Firefox support “filling”
+                      their track from the left or right of the thumb as a means to visually indicate progress, we do not currently support it.</p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-range" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-range-design-tab" data-bs-toggle="pill"
-                          href="#pills-range-design" role="tab" aria-controls="pills-range-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-range-design-tab" data-bs-toggle="pill" href="#pills-range-design" role="tab" aria-controls="pills-range-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-range-html-tab" data-bs-toggle="pill" href="#pills-range-html"
-                          role="tab" aria-controls="pills-range-html" aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-range-html-tab" data-bs-toggle="pill" href="#pills-range-html" role="tab" aria-controls="pills-range-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-range">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-range-design" role="tabpanel"
-                        aria-labelledby="pills-range-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-range-design" role="tabpanel" aria-labelledby="pills-range-design-tab">
                         <label for="customRange1" class="form-label">Example range</label>
                         <input type="range" class="form-range" id="customRange1">
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-range-html" role="tabpanel"
-                        aria-labelledby="pills-range-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-range-html" role="tabpanel" aria-labelledby="pills-range-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>customRange1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-label<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Example range<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
@@ -674,25 +621,19 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-range-second" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-range-second-design-tab" data-bs-toggle="pill"
-                          href="#pills-range-second-design" role="tab" aria-controls="pills-range-second-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-range-second-design-tab" data-bs-toggle="pill" href="#pills-range-second-design" role="tab" aria-controls="pills-range-second-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-range-second-html-tab" data-bs-toggle="pill"
-                          href="#pills-range-second-html" role="tab" aria-controls="pills-range-second-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-range-second-html-tab" data-bs-toggle="pill" href="#pills-range-second-html" role="tab" aria-controls="pills-range-second-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-range-second">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-range-second-design"
-                        role="tabpanel" aria-labelledby="pills-range-second-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-range-second-design" role="tabpanel" aria-labelledby="pills-range-second-design-tab">
                         <label for="disabledRange" class="form-label">Disabled range</label>
                         <input type="range" class="form-range" id="disabledRange" disabled>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-range-second-html" role="tabpanel"
-                        aria-labelledby="pills-range-second-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-range-second-html" role="tabpanel" aria-labelledby="pills-range-second-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>disabledRange<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-label<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Disabled range<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
@@ -716,25 +657,19 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-range-third" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-range-third-design-tab" data-bs-toggle="pill"
-                          href="#pills-range-third-design" role="tab" aria-controls="pills-range-third-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-range-third-design-tab" data-bs-toggle="pill" href="#pills-range-third-design" role="tab" aria-controls="pills-range-third-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-range-third-html-tab" data-bs-toggle="pill"
-                          href="#pills-range-third-html" role="tab" aria-controls="pills-range-third-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-range-third-html-tab" data-bs-toggle="pill" href="#pills-range-third-html" role="tab" aria-controls="pills-range-third-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-range-third">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-range-third-design"
-                        role="tabpanel" aria-labelledby="pills-range-third-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-range-third-design" role="tabpanel" aria-labelledby="pills-range-third-design-tab">
                         <label for="customRange2" class="form-label">Example range</label>
                         <input type="range" class="form-range" min="0" max="5" id="customRange2">
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-range-third-html" role="tabpanel"
-                        aria-labelledby="pills-range-third-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-range-third-html" role="tabpanel" aria-labelledby="pills-range-third-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>customRange2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-label<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Example range<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
@@ -747,8 +682,8 @@
                 </div>
               </div>
               <!-- Tange third -->
-               <!-- Range fourth -->
-               <div class="row mt-5">
+              <!-- Range fourth -->
+              <div class="row mt-5">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div class="mb-4">
                     <h3>Steps</h3>
@@ -758,25 +693,19 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-range-fourth" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-range-fourth-design-tab" data-bs-toggle="pill"
-                          href="#pills-range-fourth-design" role="tab" aria-controls="pills-range-fourth-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-range-fourth-design-tab" data-bs-toggle="pill" href="#pills-range-fourth-design" role="tab" aria-controls="pills-range-fourth-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-range-fourth-html-tab" data-bs-toggle="pill"
-                          href="#pills-range-fourth-html" role="tab" aria-controls="pills-range-fourth-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-range-fourth-html-tab" data-bs-toggle="pill" href="#pills-range-fourth-html" role="tab" aria-controls="pills-range-fourth-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-range-fourth">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-range-fourth-design"
-                        role="tabpanel" aria-labelledby="pills-range-fourth-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-range-fourth-design" role="tabpanel" aria-labelledby="pills-range-fourth-design-tab">
                         <label for="customRange3" class="form-label">Example range</label>
                         <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-range-fourth-html" role="tabpanel"
-                        aria-labelledby="pills-range-fourth-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-range-fourth-html" role="tabpanel" aria-labelledby="pills-range-fourth-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>customRange3<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-label<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Example range<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
@@ -789,8 +718,8 @@
                 </div>
               </div>
               <!-- Tange third -->
-                </div>
-              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

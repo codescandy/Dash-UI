@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        @@include("../partials/head.html")
-        <title>Borders | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
-    </head>
-    <body >
-        <div id="db-wrapper">
-          @@include('../partials/navbar-vertical.html', {
 
+<head>
+  @@include("../partials/head.html")
+  <title>Borders | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
+</head>
 
-            "page": "borders",
-            "page_group": "utilities"
-
-
-        })
-            <div id="page-content">
-                @@include("../partials/header.html")
-                <div class="container-fluid py-12 px-6 px-xl-0">
-                    <div class="row">
-                        <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="docs-content">
-                              <div class="row">
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                  <div class="mb-7" id="intro">
-                                    <h1 class="mb-2">Borders</h1>
-                                    <p class="mb-0 lead text-dark">Use border utilities to quickly style the border and border-radius of
-                                      an element. Great for images, buttons, or any other element.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                             <!-- Additive -->
+<body>
+  <div id="db-wrapper">
+    @@include('../partials/navbar-vertical.html', { "page": "borders", "page_group": "utilities" })
+    <div id="page-content">
+      @@include("../partials/header.html")
+      <div class="container-fluid py-12 px-6 px-xl-0">
+        <div class="row">
+          <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="docs-content">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="mb-7" id="intro">
+                    <h1 class="mb-2">Borders</h1>
+                    <p class="mb-0 lead text-dark">Use border utilities to quickly style the border and border-radius of an element. Great for images, buttons, or any other element.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Additive -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="border" class="mb-4">
                     <h2>Border</h2>
-                    <p>Use border utilities to add or remove an element’s borders. Choose from all borders or one at a
-                      time.</p>
+                    <p>Use border utilities to add or remove an element’s borders. Choose from all borders or one at a time.
+                    </p>
                     <div class="mt-4 mb-4" id="additive">
                       <h3>Additive</h3>
                     </div>
@@ -45,19 +39,15 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-additive" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-additive-design-tab" data-bs-toggle="pill"
-                          href="#pills-additive-design" role="tab" aria-controls="pills-additive-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-additive-design-tab" data-bs-toggle="pill" href="#pills-additive-design" role="tab" aria-controls="pills-additive-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-additive-html-tab" data-bs-toggle="pill" href="#pills-additive-html"
-                          role="tab" aria-controls="pills-additive-html" aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-additive-html-tab" data-bs-toggle="pill" href="#pills-additive-html" role="tab" aria-controls="pills-additive-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-additive">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-additive-design"
-                        role="tabpanel" aria-labelledby="pills-additive-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-additive-design" role="tabpanel" aria-labelledby="pills-additive-design-tab">
                         <div class="docs-example-border-utils">
                           <span class="border"></span>
                           <span class="border-top"></span>
@@ -66,8 +56,7 @@
                           <span class="border-start"></span>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-additive-html" role="tabpanel"
-                        aria-labelledby="pills-additive-html-tab">
+                      <div class="tab-pane tab-example-html fade " id="pills-additive-html" role="tabpanel" aria-labelledby="pills-additive-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
@@ -83,7 +72,7 @@
                 </div>
               </div>
               <!-- Additive -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Subtractive -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -94,20 +83,15 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-subtractive" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-subtractive-design-tab" data-bs-toggle="pill"
-                          href="#pills-subtractive-design" role="tab" aria-controls="pills-subtractive-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-subtractive-design-tab" data-bs-toggle="pill" href="#pills-subtractive-design" role="tab" aria-controls="pills-subtractive-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-subtractive-html-tab" data-bs-toggle="pill"
-                          href="#pills-subtractive-html" role="tab" aria-controls="pills-subtractive-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-subtractive-html-tab" data-bs-toggle="pill" href="#pills-subtractive-html" role="tab" aria-controls="pills-subtractive-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-subtractive">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-subtractive-design"
-                        role="tabpanel" aria-labelledby="pills-subtractive-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-subtractive-design" role="tabpanel" aria-labelledby="pills-subtractive-design-tab">
                         <div class="docs-example-border-utils docs-example-border-utils-0">
                           <span class="border-0"></span>
                           <span class="border-top-0"></span>
@@ -116,8 +100,7 @@
                           <span class="border-start-0"></span>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade" id="pills-subtractive-html" role="tabpanel"
-                        aria-labelledby="pills-subtractive-html-tab">
+                      <div class="tab-pane tab-example-html fade" id="pills-subtractive-html" role="tabpanel" aria-labelledby="pills-subtractive-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
@@ -133,7 +116,7 @@
                 </div>
               </div>
               <!-- Subtractive -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Border color -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -145,20 +128,15 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-border-color" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-border-color-design-tab" data-bs-toggle="pill"
-                          href="#pills-border-color-design" role="tab" aria-controls="pills-border-color-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-border-color-design-tab" data-bs-toggle="pill" href="#pills-border-color-design" role="tab" aria-controls="pills-border-color-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-border-color-html-tab" data-bs-toggle="pill"
-                          href="#pills-border-color-html" role="tab" aria-controls="pills-border-color-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-border-color-html-tab" data-bs-toggle="pill" href="#pills-border-color-html" role="tab" aria-controls="pills-border-color-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-border-color">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-border-color-design"
-                        role="tabpanel" aria-labelledby="pills-border-color-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-border-color-design" role="tabpanel" aria-labelledby="pills-border-color-design-tab">
                         <div class="docs-example-border-utils ">
                           <span class="border border-primary"></span>
                           <span class="border border-secondary"></span>
@@ -171,8 +149,7 @@
                           <span class="border border-white"></span>
                         </div>
                       </div>
-                      <div class="tab-pane tab-example-html fade" id="pills-border-color-html" role="tabpanel"
-                        aria-labelledby="pills-border-color-html-tab">
+                      <div class="tab-pane tab-example-html fade" id="pills-border-color-html" role="tabpanel" aria-labelledby="pills-border-color-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-primary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
@@ -192,7 +169,7 @@
                 </div>
               </div>
               <!-- Border color -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Border-radius -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -204,20 +181,15 @@
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-border-radius" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-border-radius-design-tab" data-bs-toggle="pill"
-                          href="#pills-border-radius-design" role="tab" aria-controls="pills-border-radius-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-border-radius-design-tab" data-bs-toggle="pill" href="#pills-border-radius-design" role="tab" aria-controls="pills-border-radius-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-border-radius-html-tab" data-bs-toggle="pill"
-                          href="#pills-border-radius-html" role="tab" aria-controls="pills-border-radius-html"
-                          aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-border-radius-html-tab" data-bs-toggle="pill" href="#pills-border-radius-html" role="tab" aria-controls="pills-border-radius-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-border-radius">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-border-radius-design"
-                        role="tabpanel" aria-labelledby="pills-border-radius-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-border-radius-design" role="tabpanel" aria-labelledby="pills-border-radius-design-tab">
                         <img src="../assets/images/placeholder/placeholder-img.jpg" alt="..." class="rounded">
                         <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-top">
                         <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-right">
@@ -227,8 +199,7 @@
                         <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-pill">
                         <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-0">
                       </div>
-                      <div class="tab-pane tab-example-html fade" id="pills-border-radius-html" role="tabpanel"
-                        aria-labelledby="pills-border-radius-html-tab">
+                      <div class="tab-pane tab-example-html fade" id="pills-border-radius-html" role="tabpanel" aria-labelledby="pills-border-radius-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
@@ -247,38 +218,32 @@
                 </div>
               </div>
               <!-- Border-radius -->
-              <hr class="mb-7 mt-10">
+              <hr class="my-10">
               <!-- Sizes -->
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div id="sizes" class="mb-4">
                     <h2>Sizes</h2>
-                    <p>Use <code class="highlighter-rouge">.rounded-3</code> or <code
-                        class="highlighter-rouge">.rounded-0</code> for larger or smaller border-radius.
+                    <p>Use <code class="highlighter-rouge">.rounded-3</code> or <code class="highlighter-rouge">.rounded-0</code> for larger or smaller border-radius.
                     </p>
                   </div>
                   <!-- Card -->
                   <div class="card">
                     <ul class="nav nav-line-bottom " id="pills-tab-sizes" role="tablist">
                       <li class="nav-item">
-                        <a class="nav-link active" id="pills-sizes-design-tab" data-bs-toggle="pill"
-                          href="#pills-sizes-design" role="tab" aria-controls="pills-sizes-design"
-                          aria-selected="true">Design</a>
+                        <a class="nav-link active" id="pills-sizes-design-tab" data-bs-toggle="pill" href="#pills-sizes-design" role="tab" aria-controls="pills-sizes-design" aria-selected="true">Design</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="pills-sizes-html-tab" data-bs-toggle="pill" href="#pills-sizes-html"
-                          role="tab" aria-controls="pills-sizes-html" aria-selected="false">HTML</a>
+                        <a class="nav-link" id="pills-sizes-html-tab" data-bs-toggle="pill" href="#pills-sizes-html" role="tab" aria-controls="pills-sizes-html" aria-selected="false">HTML</a>
                       </li>
                     </ul>
                     <!-- Tab content -->
                     <div class="tab-content p-4" id="pills-tabContent-sizes">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-sizes-design" role="tabpanel"
-                        aria-labelledby="pills-sizes-design-tab">
+                      <div class="tab-pane tab-example-design fade show active" id="pills-sizes-design" role="tabpanel" aria-labelledby="pills-sizes-design-tab">
                         <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-0">
                         <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-3">
                       </div>
-                      <div class="tab-pane tab-example-html fade" id="pills-sizes-html" role="tabpanel"
-                        aria-labelledby="pills-sizes-html-tab">
+                      <div class="tab-pane tab-example-html fade" id="pills-sizes-html" role="tabpanel" aria-labelledby="pills-sizes-html-tab">
                         <div class="copy-content copy-content-height">
                           <div class="code-toolbar">
                             <pre class="line-numbers language-markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
@@ -291,14 +256,15 @@
                 </div>
               </div>
               <!-- Sizes -->
-                            </div>
-                          </div>
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- Scripts -->
-    @@include("../partials/scripts.html")
+  </div>
+  </div>
+  <!-- Scripts -->
+  @@include("../partials/scripts.html")
 </body>
+
 </html>
