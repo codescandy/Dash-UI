@@ -1,4 +1,6 @@
- [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcodescandy%2FDash-UI)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fcodescandy.com%2Fdashui%2Findex.html)
+
+
+ [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcodescandy%2FDash-UI)]((https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fcodescandy.com%2Fdashui%2Findex.html))
 
 
 Dash-UI is a free & open source Bootstrap 5 Admin Template
