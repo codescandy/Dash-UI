@@ -1,4 +1,4 @@
-# [Dash UI - Bootstrap 5 Admin Dashboard](https://codescandy.com/dashui/index.html) [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcodescandy%2FDash-UI)]()
+# [Dash UI - Bootstrap 5 Admin Dashboard](https://codescandy.com/dashui/index.html)![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcodescandy%2FDash-UI)
 
 
 Dash-UI is a free & open source Bootstrap 5 Admin Template
