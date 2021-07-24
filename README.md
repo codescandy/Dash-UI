@@ -24,7 +24,7 @@ This product is built using the following widely used technologies:
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
 * [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
+
 
 ## Quick start
 
