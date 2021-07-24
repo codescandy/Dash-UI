@@ -17,7 +17,12 @@ This product is built using the following widely used technologies:
 - Productive workflow tool Gulp
 - Awesome CSS preprocessor Sass
 
+## Table of Contents
 
+* [Quick Start](#quick-start)
+* [Documentation](#documentation)
+* [File Structure](#file-structure)
+* [Browser Support](#browser-support)
 
 ## Quick start
 
