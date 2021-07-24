@@ -4,7 +4,7 @@ Dash-UI is a free & open source Bootstrap 5 Theme
 
 
 <a href="https://codescandy.com/dashui/index.html">
- <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/slide-img/slider-img-1.jpg" alt="Dash UI Bootstrap 5 Theme"/>
+ <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/hero-img.jpg" alt="Dash UI Bootstrap 5 Theme"/>
  </a>
 
 
