@@ -95,10 +95,10 @@ Dash UI Bootstrap 5 Theme
     │   ├── navbar-vertical.html         
     │   └── scripts.html
     ├── index.html
-    ├── README.md
     ├── gulpfile.js
     ├── package-lock.json
     ├── package.json
+    ├── README.md
 
 
 ```
