@@ -64,12 +64,10 @@ Within the download you'll find the following directories and files:
 ```
 
 Dash UI Bootstrap 5 Theme
+
+
 .
-├── README.md
-├── gulpfile.js
-├── package-lock.json
-├── package.json
-└── src
+├── src
     ├── assets
     |   ├── css
     │   ├── fonts
@@ -97,6 +95,10 @@ Dash UI Bootstrap 5 Theme
     │   ├── navbar-vertical.html         
     │   └── scripts.html
     ├── index.html
+    ├── README.md
+    ├── gulpfile.js
+    ├── package-lock.json
+    ├── package.json
 
 
 ```
