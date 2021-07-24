@@ -55,3 +55,48 @@ gulp build
 
 ## Documentation
 The documentation for Dash UI is provide on our [website](https://codescandy.com/dashui/docs/gulp.html).
+
+
+
+## File Structure
+Within the download you'll find the following directories and files:
+
+```
+
+Dash UI Bootstrap 5 Theme
+.
+├── README.md
+├── gulpfile.js
+├── package-lock.json
+├── package.json
+└── src
+    ├── assets
+    |   ├── css
+    │   ├── fonts
+    │   ├── images
+    |   ├── js
+    │   ├── scss
+    |       ├── theme
+    |       ├── theme.scss
+    ├── pages
+    │   ├── 404-error.html
+    │   ├── billing.html
+    │   ├── forget-password.html
+    │   ├── layout.html
+    │   ├── pricing.html
+    │   ├── profile.html
+    │   ├── settings.html
+    │   ├── sign-in.html
+    │   ├── sign-up.html
+    │   └── tables.html
+    ├── partials
+    │   ├── doc-navbar.html
+    │   ├── docs-sidenav.html
+    │   ├── head.html
+    │   ├── header.html
+    │   ├── navbar-vertical.html         
+    │   └── scripts.html
+    ├── index.html
+
+
+```
