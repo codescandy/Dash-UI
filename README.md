@@ -23,6 +23,8 @@ This product is built using the following widely used technologies:
 * [Documentation](#documentation)
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
+* [Technical Support or Questions](#technical-support-or-questions)
+* [Licensing](#licensing)
 
 ## Quick start
 
@@ -107,3 +109,8 @@ Dash UI Bootstrap 5 Theme
 At present, we officially aim to support the last two versions of the following browsers:
 
 <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/chrome.png" width="64" height="64"> <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/firefox.png" width="64" height="64"> <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/edge.png" width="64" height="64"> <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/safari.png" width="64" height="64"> <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/opera.png" width="64" height="64">
+
+
+## Technical Support or Questions
+
+If you have questions or need help integrating the product please [contact us](https://codescandy.com/contact-us/).
