@@ -2,9 +2,9 @@
 
 
 
-<a href="https://codescandy.com/dashui/index.html">
+<a href="https://codescandy.com/dashui/index.html" class="mb-4">
  <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/hero-img.jpg" alt="Dash UI Bootstrap 5 Theme"/>
- </a>
+</a>
 
 
 Dash-UI is a Bootstrap 5 Admin & Dashboard Template. Dash UI Kit a free and open source components and templates kit fully coded with Bootstrap 5.
