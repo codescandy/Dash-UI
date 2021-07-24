@@ -1,6 +1,13 @@
 # [Dash UI - Bootstrap 5 Theme](https://codescandy.com/dashui/index.html) [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcodescandy%2FDash-UI)](https://twitter.com/intent/tweet?text=Dash%20-%20UI%20Bootstrap%205%20Theme&url=https%3A%2F%2Fgithub.com%2Fcodescandy%2FDash-UI&via=getcodescandy)
 
 Dash-UI is a free & open source Bootstrap 5 Theme
+
+
+<a href="https://codescandy.com/dashui/index.html">
+ <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/slide-img/slider-img-1.jpg" alt="Dash UI Bootstrap 5 Theme"/>
+ </a>
+
+
 ## Workflow
 
 This product is built using the following widely used technologies:
