@@ -8,7 +8,7 @@
  <br />
   <br />
 
-Dash-UI is a Bootstrap 5 Admin & Dashboard Template. Dash UI Kit a free and open source components and templates kit fully coded with Bootstrap 5.
+Dash-UI is a Bootstrap 5 Admin & Dashboard Theme. Dash UI Kit a free and open source components and templates kit fully coded with Bootstrap 5.
 ## Workflow
 
 This product is built using the following widely used technologies:
