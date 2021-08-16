@@ -4,23 +4,19 @@
         @@include("../partials/head.html")
         <title>Shadows | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
     </head>
-    <body >
-        <div id="db-wrapper">
-          @@include('../partials/navbar-vertical.html', {
+    <body class="bg-white">
+      <!-- Main wrapper -->
 
+      @@include("../partials/doc-navbar.html")
+        <!-- Left sidebar -->
 
-            "page": "shadows",
-            "page_group": "utilities"
-
-
-        })
-            <div id="page-content">
-                @@include("../partials/header.html")
-                <div class="container-fluid py-12 px-6 px-xl-0">
-                    <div class="row">
-                        <div class="offset-xl-1 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <!-- Content -->
-                            <div class="docs-content">
+        <div class="pt-9">
+            <div class="container-xxl">
+                <div class="row">
+                <div class="col-lg-2 col-12 bg-white position-sticky border-end">
+                    @@include("../partials/doc-sidenav.html")
+                </div>
+                <div class="col-lg-8 col-12 p-8">
                               <div class="row">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                   <div class="mb-7" >

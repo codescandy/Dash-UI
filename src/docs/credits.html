@@ -8,21 +8,19 @@
 
 </head>
 
-<body>
-
-
+<body class="bg-white">
   <!-- Main wrapper -->
-  <div class="docs-main-wrapper">
-    @@include("../partials/doc-navbar.html")
-    <!-- left sidebar -->
-    @@include("../partials/docs-sidenav.html")
-    <!-- wrapper  -->
-    <div class="docs-wrapper">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12">
-            <!-- Content -->
-            <div class="docs-content">
+
+  @@include("../partials/doc-navbar.html")
+    <!-- Left sidebar -->
+
+    <div class="pt-9">
+        <div class="container-xxl">
+            <div class="row">
+            <div class="col-lg-2 col-12 bg-white position-sticky border-end">
+                @@include("../partials/doc-sidenav.html")
+            </div>
+            <div class="col-lg-8 col-12 p-8">
               <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div class="mb-7" id="intro">

@@ -35,7 +35,7 @@
 
     if ($(".nav-scroller").length) {
         $(".nav-scroller").slimScroll({
-            height: "90%",
+            height: "100%",
         });
     }
 

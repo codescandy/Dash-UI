@@ -4,25 +4,24 @@
 		@@include("../partials/head.html")
 		<title>Changelog | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
 	</head>
-
-	<body class="bg-light">
+	<body class="bg-white">
 		<!-- Main wrapper -->
-		<div class="docs-main-wrapper">
-			@@include("../partials/doc-navbar.html")
-			<!-- left sidebar -->
-			@@include("../partials/docs-sidenav.html")
-			<!-- Wrapper  -->
-			<div class="docs-wrapper">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-12">
-							<!-- Content -->
-							<div class="docs-content">
+
+		@@include("../partials/doc-navbar.html")
+		  <!-- Left sidebar -->
+
+		  <div class="pt-9">
+			  <div class="container-xxl">
+				  <div class="row">
+				  <div class="col-lg-2 col-12 bg-white position-sticky border-end">
+					  @@include("../partials/doc-sidenav.html")
+				  </div>
+				  <div class="col-lg-8 col-12 p-8">
 								<div class="row">
-									<div class="offset-xl-1 col-xl-10 col-md-12">
+									<div class="col-md-12">
 										<div class="row">
-											<div class="col-md-3"></div>
-											<div class="col-md-5">
+											<div class="col-md-4"></div>
+											<div class="col-md-8">
 												<div class="mb-5 mt-5" id="intro">
 													<h1 class="mb-2 fw-bold display-4">Changelog</h1>
 													<p class="mb-0 lead text-dark fw-semi-bold">
@@ -35,14 +34,14 @@
 										<hr />
 
 										<div class="docs-example row mt-7">
-											<div class="col-md-3 col-12">
+											<div class="col-md-4 col-12">
 												<div id="initial">
 													<h4 class="mb-3 fw-bold">
 														<code>v1.0.0</code> - June 19, 2021
 													</h4>
 												</div>
 											</div>
-											<div class="col-md-9 col-12">
+											<div class="col-md-8 col-12">
 												<div>
 													<h3 class="mb-2">Inital Release Dashui</h3>
 													<p>
@@ -55,19 +54,8 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<div
-							class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 d-none d-xl-block position-fixed end-0"
-						>
-							<!-- Sidebar nav fixed -->
-							<div class="sidebar-nav-fixed">
-								<ul class="list-unstyled">
-									<li><a href="#intro" class="active">Introduction</a></li>
 
-									<li><a href="#initial">v.1.0.0</a></li>
-								</ul>
-							</div>
-						</div>
+
 					</div>
 				</div>
 			</div>
