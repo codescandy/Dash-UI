@@ -16843,15 +16843,6 @@ body {
     .docs-header .navbar .navbar-nav .nav-item .nav-link:hover {
       color: #000; }
 
-.doc-section-head {
-  border-bottom: 1px solid #efeef1;
-  padding: 2.5rem 0rem;
-  margin-bottom: 2.5rem; }
-
-.doc-section-head-text {
-  font-size: 1.25rem;
-  line-height: 2rem; }
-
 .docs-main-wrapper {
   min-height: 100%;
   position: relative; }
@@ -17458,3 +17449,14 @@ body {
 
 pre[class*="language-"].line-numbers {
   position: initial; }
+
+.heading-permalink {
+  color: transparent;
+  margin-left: -2rem; }
+  .heading-permalink:hover {
+    color: transparent; }
+  .heading-permalink::before {
+    color: rgba(82, 95, 127, 0);
+    content: "#"; }
+  .heading-permalink:hover:before {
+    color: #624BFF; }

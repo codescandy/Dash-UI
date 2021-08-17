@@ -30,3 +30,30 @@
 
 // User
 @import "user";
+
+.heading-permalink{
+    color: transparent;
+    margin-left: -2rem;
+    &:hover{
+        color: transparent;
+
+
+    }
+
+
+
+&::before {
+    color: rgba(82,95,127,0);
+    content: "#";
+
+
+
+}
+&:hover:before{
+    color: $primary;
+
+
+
+}
+
+}

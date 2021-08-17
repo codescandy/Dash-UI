@@ -2,3 +2,4 @@ node_modules/
 dist/
 .temp/
 .DS_Store
+src/docs/demo-dark-light.html

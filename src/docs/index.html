@@ -9,7 +9,7 @@
 
 </head>
 
-<body class="bg-white">
+<body>
   <!-- Main wrapper -->
 
   @@include("../partials/doc-navbar.html")
@@ -18,26 +18,34 @@
     <div class="pt-9">
         <div class="container-xxl">
             <div class="row">
-            <div class="col-lg-2 col-12 bg-white position-sticky border-end">
+            <div class="col-lg-2 col-12 position-sticky border-end">
                 @@include("../partials/doc-sidenav.html")
             </div>
             <div class="col-lg-8 col-12 p-8">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                      <div class="mb-7" id="intro">
+                      <div class="mb-10" id="intro">
                         <h1 class="mb-2">Introduction</h1>
                         <p class="mb-0 lead text-dark">Get started with Dash-ui, Responsive Website Template for building
                           responsive, mobile-first sites, with Bootstrap and a template starter page.</p>
+
+                          <div class="container">
+                            <p><strong>Toggle light / dark mode</strong></p>
+                            <label class="switch">
+                              <input type="checkbox" class="switch__state">
+                              <span class="switch__toggle"></span>
+                            </label>
+                          </div>
                       </div>
                     </div>
                   </div>
                   <!-- Row -->
                   <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                      <div class="mb-5" id="quickstart">
-                        <h2 class="fw-medium">Quick start</h2>
-                        <div class="mt-3" id="css">
-                          <h3 class="mb-2">CSS</h3>
+                      <div class="mb-4" >
+                        <h3 class="fw-medium"><a href="#quickstart" name="quickstart" id="quickstart" class="heading-permalink" aria-hidden="true" title="">¶</a>Quick start</h3>
+                        <div class="mt-6" id="css">
+                          <h4 class="mb-2">CSS</h4>
                           <p>Copy-paste the <strong>Bootstrap</strong>,
                             and then <strong>Dash-ui</strong> stylesheets into your link. before
                             all other stylesheets to load our CSS.</p>
@@ -57,7 +65,7 @@
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                       <div class="mb-5" id="js">
                         <div class="mt-3 mb-3">
-                          <h3 class="mb-2">JS </h3>
+                          <h4 class="mb-2">JS </h4>
                           <p>Many of our components require the use of JavaScript to function. Specifically, they require
                             jQuery, Popper.js, and our own JavaScript plugins. Place the following <strong>script</strong>
                             near the end of your
@@ -82,7 +90,7 @@
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                       <div class="mb-5" id="starter">
                         <div class=" mt-3 mb-3">
-                          <h2 class="mb-2">Starter template </h2>
+                          <h4 class="mb-2">Starter template </h3>
                           <p>Be sure to have your docs set up with the latest design and development standards. That means
                             using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it
                             all together and
@@ -124,7 +132,7 @@
                   <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                       <div class="mt-3 mb-3" id="important">
-                        <h2 class="mb-2">Important globals</h2>
+                        <h4 class="mb-2">Important globals</h3>
                         <p>Dash-ui employs a handful of important global styles and settings that you’ll need to be aware of
                           when using it, all of which are almost exclusively geared towards the normalization of cross
                           browser styles. Let’s
@@ -133,7 +141,7 @@
                     </div>
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                       <div class="mt-3 mb-3" id="doctype">
-                        <h2 class="mb-2">HTML5 doctype </h2>
+                        <h4 class="mb-2">HTML5 doctype </h3>
                         <p>Dash-ui requires the use of the HTML5 doctype. Without it, you'll see some funky incomplete
                           styling, but including it shouldn't cause any considerable hiccups.
                         </p>
@@ -153,7 +161,7 @@
                     </div>
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                       <div class="mt-3 mb-3" id="responsive">
-                        <h2 class="mb-2">Responsive meta tag </h2>
+                        <h4 class="mb-2">Responsive meta tag </h3>
                         <p>Dash-ui is developed mobile first, a strategy in which we optimize code for mobile devices first
                           and then scale up components as necessary using CSS media queries. To ensure proper rendering and
                           touch zooming for
@@ -187,6 +195,8 @@
 
   <!-- Scripts -->
   @@include("../partials/scripts.html")
+
+
 </body>
 
 </html>
