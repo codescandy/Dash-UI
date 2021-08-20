@@ -44,14 +44,27 @@
 .demo-sidebar{
   z-index: 2;
   width: 13.625rem;
+  border-right: 1px solid $gray-200;
 
-  @media(max-width:990px) {
-    width: 10rem;
-  }
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
 
-  @media(max-width:375px) {
+
+
+
+  @media(max-width:768px) {
     width: 100%;
+    position: relative;
+    border: 0;
+    height: auto;
+
   }
+  @media(min-width: 990px) and (max-width: 1200px) {
+    width: 10rem;
+
+  }
+
 .navbar-nav{
   padding-top: 1rem;
   .navbar-header {
