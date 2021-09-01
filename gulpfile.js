@@ -15,7 +15,7 @@
 
 // Load plugins
 const { src, dest, watch, parallel, series } = require("gulp");
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const gulpautoprefixer = require('gulp-autoprefixer');
 const browsersync = require("browser-sync").create();
 const fileinclude = require('gulp-file-include');
