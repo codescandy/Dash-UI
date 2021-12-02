@@ -1,13 +1,13 @@
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-100: #F9FAFB !default;
+$gray-200: #F4F6F8 !default;
+$gray-300: #DFE3E8 !default;
+$gray-400: #C4CDD5 !default;
+$gray-500: #919EAB !default;
+$gray-600: #637381 !default;
+$gray-700: #454F5B !default;
+$gray-800: #212B36 !default;
+$gray-900: #161C24 !default;
 $black: #000 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
@@ -22,9 +22,8 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-900 !default;
-$light: $gray-100 !default;
-$dark: $gray-900 !default;
+$dark:          $gray-800 !default;
+
 
 
 
@@ -78,7 +77,7 @@ $theme-colors: ( "primary":    $primary,
 // Body
 //
 // Settings for the `<body>` element.
-$body-bg: $gray-200 !default;
+
 $body-color: $gray-600 !default;
 // Typography
 // Font, line-height, and color for body text, headings, and more.
@@ -159,6 +158,7 @@ $spacers: map-merge((0: 0, 1: ($spacer * 0.25), // 4px
 $border-radius: .375rem !default;
 $border-radius-lg: .5rem !default;
 $border-radius-sm: .2rem !default;
+
 $smooth-shadow-sm: 0px 2px 4px rgba(0, 0, 20, 0.08),
 0px 1px 2px rgba(0, 0, 20, 0.08)!default;
 
@@ -224,6 +224,8 @@ $grid-gutter-width: 32px !default;
 
 $card-spacer-y:                     1.5rem !default;
 $card-spacer-x:                     1.5rem !default;
+$card-inner-border-radius:          .5rem !default;
+$card-title-spacer-y:               $spacer * 1.5 !default;
 
 
 
@@ -255,7 +257,7 @@ $table-cell-padding-y-sm:     .3rem !default;
 $table-cell-padding-x-sm:     .6rem !default;
 
 
-$table-accent-bg:             rgba($gray-100, 0.7) !default;
+
 $table-hover-bg:              rgba($gray-100, 0.7) !default;
 
 

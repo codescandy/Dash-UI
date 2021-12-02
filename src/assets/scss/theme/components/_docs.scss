@@ -165,50 +165,14 @@
 
 
 
-    // Sidebar
 
-.sidebar-nav-fixed {
-    position: sticky;
-    top: 4rem;
-    height: calc(100vh - 2rem);
-    overflow-y: auto;
-    padding-top: 4.0625rem;
-    border-left: 1px solid $gray-300;
-    ul {
-      list-style: none;
-      li {
-        a {
-          font-size: 0.8125rem;
-          color: $gray-600;
-          display: block;
-          padding: 0.125rem 1.5rem;
-          background: transparent;
-          border-radius: 0px;
-          border-left: 2px solid transparent;
-          line-height: 1.4375rem;
-          text-decoration: none;
-          transition: 0.5s ease;
-          &:hover {
-            color: $primary;
-          }
-        }
-        a.active {
-          display: block;
-          color: $primary;
-          background: transparent !important;
-          text-decoration: none;
-          border-left-color: $primary;
-          transition: 0.5s ease;
-        }
-        ul {
-          list-style: none;
-          padding-left: 0rem;
-          li {
-            a {
-              padding: 0.125rem 2.5rem;
-            }
-          }
-        }
-      }
-    }
-  }
+
+  // ratio
+
+.ratio{
+  display: inline-block;
+    width: 10rem;
+    color: $gray-600;
+    background-color: $gray-100;
+    border: 1px solid $gray-200;
+}

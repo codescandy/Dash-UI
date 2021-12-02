@@ -12,7 +12,6 @@
 @media(max-width: 768px) {
   // Docs nav sidebar
   .docs-nav-sidebar {
-
     .navbar-toggler {
       background-color: $white;
     }
@@ -41,19 +40,19 @@
 
 
 
-.demo-sidebar{
+.doc-sidebar{
   z-index: 2;
   width: 13.625rem;
-  border-right: 1px solid $gray-200;
-
+  border-right: 1px solid $gray-300;
   position: fixed;
-  height: 100vh;
+  height: 100%;
   overflow: auto;
+  
 
 
 
 
-  @media(max-width:768px) {
+  @media(max-width:990px) {
     width: 100%;
     position: relative;
     border: 0;
@@ -68,9 +67,9 @@
 .navbar-nav{
   padding-top: 1rem;
   .navbar-header {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     padding: 0rem 1rem;
-    margin-top: 1.5625rem;
+    margin-top: 2rem;
     font-size: 0.75rem;
     .heading {
       font-size: 0.75rem;
@@ -89,7 +88,7 @@
       color: $gray-800;
       font-size: .875rem;
       line-height: 1.25rem;
-      padding: 0.6rem 1rem;
+      padding: 0.25rem 1rem;
       font-family: $font-family-sans-serif;
       font-weight: 500;
 

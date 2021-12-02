@@ -114,150 +114,12 @@
 
                         <!-- Nav item -->
                         <li class="nav-item">
-                            <a class="nav-link has-arrow @@if (context.page_group !== 'components') { collapsed }" href="#!" data-bs-toggle="collapse" data-bs-target="#navComponents" aria-expanded="false" aria-controls="navComponents">
-                                <i data-feather="database" class="nav-icon icon-xs me-2" >
-                            </i> Components
+                            <a class="nav-link has-arrow @@if (context.page === 'docs') { active }" href="@@webRoot/docs/accordions.html" >
+                                <i data-feather="package" class="nav-icon icon-xs me-2" >
+                            </i>  Components
                             </a>
-                            <div id="navComponents" class="collapse @@if (context.page_group === 'components') { show }" data-bs-parent="#sideNavbar">
-                                <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a class="nav-link @@if (context.page === 'accordions') { active }" href="@@webRoot/components/accordions.html" aria-expanded="false">
-                                              Accordions
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link @@if (context.page === 'alerts') { active }" href="@@webRoot/components/alerts.html" aria-expanded="false">
-                                              Alerts
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link @@if (context.page === 'badge') { active }" href="@@webRoot/components/badge.html" aria-expanded="false">
-                                             Badge
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link @@if (context.page === 'breadcrumb') { active }" href="@@webRoot/components/breadcrumb.html" aria-expanded="false">
-                                            Breadcrumb
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link @@if (context.page === 'button') { active }" href="@@webRoot/components/button.html" aria-expanded="false">
-                                             Button
-                                        </a>
-                                    </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'buttongroup') { active }" href="@@webRoot/components/button-group.html" aria-expanded="false">
-                                        Button group
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'card') { active }" href="@@webRoot/components/card.html" aria-expanded="false">
-                                          Card
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'carousel') { active }" href="@@webRoot/components/carousel.html" aria-expanded="false">
-                                         Carousel
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'collapse') { active }" href="@@webRoot/components/collapse.html" aria-expanded="false">
-                                         Collapse
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'dropdowns') { active }" href="@@webRoot/components/dropdowns.html" aria-expanded="false">
-                                         Dropdowns
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'forms') { active }" href="@@webRoot/components/forms.html" aria-expanded="false">
-                                         Forms
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'inputgroup') { active }" href="@@webRoot/components/input-group.html" aria-expanded="false">
-                                         Input group
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'listgroup') { active }" href="@@webRoot/components/list-group.html" aria-expanded="false">
-                                         List group
-                                    </a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'modal') { active }" href="@@webRoot/components/modal.html" aria-expanded="false">
-                                         Modal
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'navs') { active }" href="@@webRoot/components/navs.html" aria-expanded="false">
-                                        Navs
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'navbar') { active }" href="@@webRoot/components/navbar.html" aria-expanded="false">
-                                         Navbar
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'offcanvas') { active }" href="@@webRoot/components/offcanvas.html" aria-expanded="false">
-                                         Offcanvas
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'pagination') { active }" href="@@webRoot/components/pagination.html" aria-expanded="false">
-                                         Pagination
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'popover') { active }" href="@@webRoot/components/popovers.html" aria-expanded="false">
-                                         Popovers
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'progress') { active }" href="@@webRoot/components/progress.html" aria-expanded="false">
-                                         Progress
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="@@webRoot/components/scrollspy.html" aria-expanded="false">
-                                         Scrollspy
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'spinners') { active }" href="@@webRoot/components/spinners.html" aria-expanded="false">
-                                         Spinners
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'toasts') { active }" href="@@webRoot/components/toasts.html" aria-expanded="false">
-                                         Toasts
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link @@if (context.page === 'tooltips') { active }" href="@@webRoot/components/tooltips.html" aria-expanded="false">
-                                         Tooltips
-                                    </a>
-                                </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link @@if (context.page === 'tables') { active }" href="@@webRoot/pages/tables.html">
-                                <i
-
-
-                                    class="nav-icon icon-xs me-2 bi bi-table"
-                                >
-                                </i
-                                      >
-                                Tables
-                            </a>
-                        </li>
-
+                         </li>
+                  
 
                         <li class="nav-item">
                             <a class="nav-link has-arrow @@if (context.page_group !== 'menulevel') { collapsed }" href="#!" data-bs-toggle="collapse" data-bs-target="#navMenuLevel" aria-expanded="false" aria-controls="navMenuLevel">
@@ -326,6 +188,12 @@
                             <a class="nav-link has-arrow @@if (context.page === 'docs') { active }" href="@@webRoot/docs/index.html" >
                                 <i data-feather="clipboard" class="nav-icon icon-xs me-2" >
                             </i>  Docs
+                            </a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link has-arrow @@if (context.page === 'docs') { active }" href="@@webRoot/docs/changelog.html" >
+                                <i data-feather="git-pull-request" class="nav-icon icon-xs me-2" >
+                            </i>  Changelog
                             </a>
                          </li>
 

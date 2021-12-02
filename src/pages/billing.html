@@ -6,7 +6,7 @@
   <title>Billing | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
 </head>
 
-<body>
+<body class="bg-light"> 
   <div id="db-wrapper">
     <!-- navbar vertical  -->
     @@include('../partials/navbar-vertical.html', { "page": "billing", "page_group": "pages", "subpage": "accounts", })
@@ -14,24 +14,22 @@
     <div id="page-content">
       @@include("../partials/header.html")
       <!-- Container fluid -->
-      <div class="container-fluid px-6 py-4">
+      <div class="container-fluid p-6">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-12">
             <!-- Page header -->
-            <div>
-              <div class="border-bottom pb-4 mb-4 d-flex align-items-center
-                  justify-content-between">
-                <div class="mb-2 mb-lg-0">
+         
+              <div class="border-bottom pb-4 mb-4">
+              
                   <h3 class="mb-0 fw-bold">Billing</h3>
 
+                
+                
                 </div>
-                <div>
-                  <a href="#" class="btn btn-primary">Button</a>
-                </div>
-              </div>
+             
             </div>
           </div>
-        </div>
+        
         <!-- row  -->
         <div class="row mt-6">
           <div class="offset-xl-2 col-xl-8 offset-lg-1 col-lg-10 col-md-12
@@ -93,7 +91,7 @@
                         </div>
                       </div>
                       <div class="text-center text-md-start">
-                        <a href="#" class="text-danger">Remove</a>
+                        <a href="#" class="link-danger">Remove</a>
                         <a href="#" class="btn btn-outline-white ms-2">Change
                             Card</a>
                       </div>
@@ -125,10 +123,8 @@
                                   Tarrant</span>
                                 <span class="d-block mb-4">3757 Morgan Street
                                   Tallahassee, FL 32301</span>
-                                <a href="#" class="me-2 text-muted
-                                  text-primary-hover">Edit</a>
-                                <a href="#" class="me-2 text-muted
-                                  text-primary-hover">Delete</a>
+                                <a href="#" class="me-2 link-success">Edit</a>
+                                <a href="#" class="me-2 link-danger">Delete</a>
                                 <a href="#" class="me-2 text-muted
                                   text-primary-hover">Remove as Default Billing</a>
                               </label>
@@ -159,10 +155,8 @@
                                 fs-4">Mildred Cantu</span>
                               <span class="d-block mb-4">3757 Morgan Street
                                 Tallahassee, FL 32301</span>
-                              <a href="#" class="me-2 text-muted
-                                text-primary-hover">Edit</a>
-                              <a href="#" class="me-2 text-muted
-                                text-primary-hover">Delete</a>
+                              <a href="#" class="me-2 link-success">Edit</a>
+                              <a href="#" class="me-2 link-danger">Delete</a>
                               <a href="#" class="me-2 text-muted
                                 text-primary-hover">Set as Default</a>
                             </label>
