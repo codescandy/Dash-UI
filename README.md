@@ -120,4 +120,4 @@ If you have questions or need help integrating the product please [contact us](h
 
 Get more power with DashUI PRO featuring bunch of UI components, forms, tables, charts, pages, and icons.
 
-| Free    | Pro
+
