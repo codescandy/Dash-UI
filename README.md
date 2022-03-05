@@ -115,3 +115,5 @@ At present, we officially aim to support the last two versions of the following 
 
 If you have questions or need help integrating the product please [contact us](https://codescandy.com/contact-us/).
 [Support](https://github.com/codescandy/Dash-UI/discussions)
+
+### Upgrade to PRO
