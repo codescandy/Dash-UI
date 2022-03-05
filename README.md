@@ -126,7 +126,3 @@ Get more power with DashUI PRO featuring bunch of UI components, forms, tables, 
 | 11 Demo Pages       | Coming Soon                                 |
 | Includine Docs      |                                             |
 | Libraries & Plugins |                                             |
-|                     |                                             |
-|                     |                                             |
-|                     |                                             |
-|                     |                                             |
