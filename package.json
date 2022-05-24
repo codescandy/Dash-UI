@@ -50,7 +50,7 @@
         "gulp-sass": "^5.0.0",
         "gulp-terser": "^2.1.0",
         "gulp-useref": "^5.0.0",
-        "node-sass": "^6.0.1",
+        "node-sass": "^7.0.1",
         "postcss": "^8.4.4",
         "sass": "^1.44.0"
     },
@@ -66,6 +66,6 @@
         "prismjs": "^1.25.0"
     },
     "resolutions": {
-        "glob-parent": "^6.0.1"
+        "glob-parent": "^6.0.2"
     }
 }
