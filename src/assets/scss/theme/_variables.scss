@@ -1,5 +1,5 @@
 $white:    #fff !default;
-$gray-100: #F9FAFB !default;
+$gray-100: #f1f5f9 !default;
 $gray-200: #F4F6F8 !default;
 $gray-300: #DFE3E8 !default;
 $gray-400: #C4CDD5 !default;
@@ -11,10 +11,10 @@ $gray-900: #161C24 !default;
 $black: #000 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
+$yellow:  #f59e0b !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
-$cyan:    #0dcaf0 !default;
+$cyan:    #0ea5e9 !default;
 $primary: #624BFF !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
@@ -82,12 +82,11 @@ $body-color: $gray-600 !default;
 // Typography
 // Font, line-height, and color for body text, headings, and more.
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: 'Inter',
-'sans-serif' !default;
+$font-family-sans-serif: 'Inter', 'sans-serif' !default;
 $font-family-base: $font-family-sans-serif !default;
 $font-family-heading: $font-family-sans-serif;
 // stylelint-enable value-keyword-case
-$font-size-base: 0.9375rem !default; // Assumes the browser default, typically `16px`
+$font-size-base: 0.9375rem !default; // Assumes the browser default, typically `15px`
 $font-size-lg: $font-size-base * 1.25 !default;
 $font-size-sm: $font-size-base * .875 !default;
 $font-weight-lighter: lighter !default;
@@ -102,15 +101,15 @@ $line-height-base: 1.5 !default;
 $link-hover-decoration: none !default;
 
 
-$h1-font-size:                2.25rem !default;
-$h2-font-size:                1.875rem !default;
-$h3-font-size:                1.5rem !default;
-$h4-font-size:                1.125rem !default;
-$h5-font-size:                0.938rem !default;
-$h6-font-size:                0.75rem !default;
+$h1-font-size: 2.25rem !default;
+$h2-font-size: 1.875rem !default;
+$h3-font-size: 1.5rem !default;
+$h4-font-size: 1.125rem !default;
+$h5-font-size: 0.938rem !default;
+$h6-font-size: 0.75rem !default;
 
 
-$headings-color:              $gray-800 !default;
+$headings-color: $gray-800 !default;
 
 
 
@@ -185,7 +184,9 @@ $input-btn-padding-x: 1rem !default;
 $input-btn-font-family: null !default;
 $btn-font-weight: $font-weight-medium !default;
 
-$form-label-color:                      $gray-900 !default;
+$form-label-color: $gray-800 !default;
+
+
 // Avatar
 $avatar-size-xs: 1.5rem !default;
 $avatar-size-sm: 2rem !default;
@@ -193,6 +194,8 @@ $avatar-size-md: 2.5rem !default;
 $avatar-size-lg: 3.5rem !default;
 $avatar-size-xl: 5rem !default;
 $avatar-size-xxl: 7.5rem !default;
+
+
 // Icon
 $icon-size-xxs: .875rem !default;
 $icon-size-xs: 1rem !default;
@@ -202,35 +205,38 @@ $icon-size-lg: 3rem !default;
 $icon-size-xl: 3.5rem !default;
 $icon-size-xxl: 4rem !default;
 $enable-responsive-font-sizes: false !default;
+
+
+
 // Position
 // Define the edge positioning anchors of the position utilities.
 $position-values: (0: 0, 1: 1, 2: 2, 50: 50%, 100: 100%) !default;
 
+// Negative margins
 $enable-negative-margins:     true !default;
 
 
+// Link Decoration
 
-$link-decoration:                         none !default;
+$link-decoration:            none !default;
 
 
-
-
-// grid
-$grid-gutter-width: 32px !default;
-
+// grid gutter space
+$grid-gutter-width: 1.5rem !default;
 
 
 // Cards
 
-$card-spacer-y:                     1.5rem !default;
-$card-spacer-x:                     1.5rem !default;
+$card-spacer-y:        1.25rem !default;
+$card-spacer-x:        1.25rem !default;
 $card-inner-border-radius:          .5rem !default;
-$card-title-spacer-y:               $spacer * 1.5 !default;
+$card-title-spacer-y:  $spacer * 1.5 !default;
 
 
 
 
-// letter spacing
+// Letter Spacing
+
 $letter-spacing-sm: -0.04em;
 $letter-spacing-xs: -0.08em;
 $letter-spacing-base: 0em;
@@ -258,7 +264,7 @@ $table-cell-padding-x-sm:     .6rem !default;
 
 
 
-$table-hover-bg:              rgba($gray-100, 0.7) !default;
+$table-hover-bg: rgba($gray-100, 0.7) !default;
 
 
 
