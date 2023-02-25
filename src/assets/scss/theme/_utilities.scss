@@ -2,14 +2,17 @@
 // utilities.scss
 // Extended from Bootstrap
 //
-@import "../../../../node_modules/bootstrap/scss/variables";
-
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
 
 $utilities: () !default;
 
 $utilities: map-merge(
-    $utilities,
-    (
+  $utilities,
+  (
     "font-weight": (
       property: font-weight,
       class: fw,
@@ -20,8 +23,8 @@ $utilities: map-merge(
         semi-bold: $font-weight-semi-bold,
         medium: $font-weight-medium,
         bold: $font-weight-bold,
-        bolder: $font-weight-bolder
-      )
+        bolder: $font-weight-bolder,
+      ),
     ),
     "line-height": (
       property: line-height,
@@ -34,7 +37,7 @@ $utilities: map-merge(
         base: $line-height-base,
         md: $line-height-md,
         lg: $line-height-lg,
-      )
+      ),
     ),
     "letter-spacing": (
       property: letter-spacing,
@@ -47,7 +50,7 @@ $utilities: map-merge(
         lg: $letter-spacing-lg,
         xl: $letter-spacing-xl,
         xxl: $letter-spacing-xxl,
-      )
+      ),
     ),
     "width": (
       property: width,
@@ -62,8 +65,8 @@ $utilities: map-merge(
         65: 65%,
         75: 75%,
         100: 100%,
-        auto: auto
-      )
+        auto: auto,
+      ),
     ),
     "max-width": (
       property: max-width,
@@ -77,20 +80,24 @@ $utilities: map-merge(
         65: 65%,
         75: 75%,
         100: 100%,
-        auto: auto
-      )
+        auto: auto,
+      ),
     ),
     "viewport-width": (
       property: width,
       responsive: true,
       class: vw,
-      values: (100: 100vw)
+      values: (
+        100: 100vw,
+      ),
     ),
     "min-viewport-width": (
       property: min-width,
       responsive: true,
       class: min-vw,
-      values: (100: 100vw)
+      values: (
+        100: 100vw,
+      ),
     ),
     "height": (
       property: height,
@@ -104,8 +111,8 @@ $utilities: map-merge(
         65: 65%,
         75: 75%,
         100: 100%,
-        auto: auto
-      )
+        auto: auto,
+      ),
     ),
     "max-height": (
       property: max-height,
@@ -119,86 +126,93 @@ $utilities: map-merge(
         65: 65%,
         75: 75%,
         100: 100%,
-        auto: auto
-      )
+        auto: auto,
+      ),
     ),
     "viewport-height": (
       property: height,
       responsive: true,
       class: vh,
-      values: (100: 100vh)
+      values: (
+        100: 100vh,
+      ),
     ),
     "min-viewport-height": (
       property: min-height,
       responsive: true,
       class: min-vh,
-      values: (100: 100vh)
+      values: (
+        100: 100vh,
+      ),
     ),
 
     "z-index": (
       property: z-index,
       class: z,
       values: (
-          0:0,
-          1:1,
-          2:2,
-          3:3,
-          4:4,
-          5:5,
-          ),
+        0: 0,
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
+      ),
     ),
 
     "color": (
       property: color,
       class: text,
-      values: map-merge(
-        $theme-colors,
-        (
-
-        "gray-100": $gray-100,
-        "gray-200": $gray-200,
-        "gray-300": $gray-300,
-        "gray-400": $gray-400,
-        "gray-500": $gray-500,
-        "gray-600": $gray-600,
-        "gray-700": $gray-700,
-        "gray-800": $gray-800,
-        "gray-900": $gray-900,
-         "white": $white,
-         "body": $body-color,
-         "muted": $text-muted,
-         "black-50": rgba($black, .5),
-         "white-50": rgba($white, .5),
-         "reset": inherit,
-        )
-      )
+      values:
+        map-merge(
+          $theme-colors,
+          (
+            "gray-100": $gray-100,
+            "gray-200": $gray-200,
+            "gray-300": $gray-300,
+            "gray-400": $gray-400,
+            "gray-500": $gray-500,
+            "gray-600": $gray-600,
+            "gray-700": $gray-700,
+            "gray-800": $gray-800,
+            "gray-900": $gray-900,
+            "white": $white,
+            "body": $body-color,
+            "muted": $text-muted,
+            "black-50": rgba($black, 0.5),
+            "white-50": rgba($white, 0.5),
+            "reset": inherit,
+          )
+        ),
     ),
     // scss-docs-end utils-color
     // scss-docs-start utils-bg-color
-    "background-color": (
-      property: background-color,
-      class: bg,
-      values: map-merge(
-        $theme-colors,
-        (
-          "gray-100": $gray-100,
-        "gray-200": $gray-200,
-        "gray-300": $gray-300,
-        "gray-400": $gray-400,
-        "gray-500": $gray-500,
-        "gray-600": $gray-600,
-        "gray-700": $gray-700,
-        "gray-800": $gray-800,
-        "gray-900": $gray-900,
-          "body": $body-bg,
-          "white": $white,
-          "transparent": transparent
-        )
-      )
-    ),
+    "background-color":
+      (
+        property: background-color,
+        class: bg,
+        values:
+          map-merge(
+            $theme-colors,
+            (
+              "gray-100": $gray-100,
+              "gray-200": $gray-200,
+              "gray-300": $gray-300,
+              "gray-400": $gray-400,
+              "gray-500": $gray-500,
+              "gray-600": $gray-600,
+              "gray-700": $gray-700,
+              "gray-800": $gray-800,
+              "gray-900": $gray-900,
+              "body": $body-bg,
+              "white": $white,
+              "transparent": transparent,
+            )
+          ),
+      ),
   )
 );
 
+@import "../../../node_modules/bootstrap/scss/utilities/api";
 
 // Utilities
 
