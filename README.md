@@ -5,10 +5,12 @@
 <a href="https://codescandy.com/dashui/index.html">
  <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/hero-img.jpg" alt="Dash UI Bootstrap 5 Theme"/>
 </a>
- <br />
-  <br />
+
 
 Dash-UI is a Bootstrap 5 Admin & Dashboard Theme. Dash UI Kit a free and open source components and templates kit fully coded with Bootstrap 5.
+
+[Dash UI pro](https://dashui.codescandy.com/)
+
 ## Workflow
 
 This product is built using the following widely used technologies:
@@ -118,11 +120,11 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Upgrade to PRO
 
-Get more power with DashUI PRO featuring bunch of UI components, forms, tables, charts, pages, and icons.
+Get more power with [Dash UI pro](https://dashui.codescandy.com/) featuring bunch of UI components, forms, tables, charts, pages, and icons.
 
 
 | Free Version        | [DashUI PRO]
 |---------------------|-------------------------------------------- |
-| 11 Demo Pages       | Coming Soon                                 |
-| Includine Docs      |                                             |
-| Libraries & Plugins |                                             |
+| 11 Demo Pages       | 100+ pages                                |
+| Includine Docs      | App pages                                           |
+| Libraries & Plugins | Dark / Light Mode                                            |
