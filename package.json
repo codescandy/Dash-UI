@@ -21,8 +21,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx npm-force-resolutions"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -35,8 +34,8 @@
   },
   "homepage": "https://github.com/codescandy/Dash-UI#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "browser-sync": "^2.27.12",
+    "autoprefixer": "^10.4.14",
+    "browser-sync": "^2.29.1",
     "cssnano": "^5.1.15",
     "del": "^6.1.1",
     "gulp": "^4.0.2",
@@ -52,20 +51,17 @@
     "gulp-useref": "^5.0.0",
     "node-sass": "^8.0.0",
     "postcss": "^8.4.21",
-    "sass": "^1.58.3"
+    "sass": "^1.59.3"
   },
   "dependencies": {
-    "@mdi/font": "^7.1.96",
-    "apexcharts": "^3.37.1",
-    "bootstrap": "^5.2.3",
+    "@mdi/font": "^7.2.96",
+    "apexcharts": "^3.37.2",
+    "bootstrap": "^5.3.0-alpha1",
     "bootstrap-icons": "^1.10.3",
     "dropzone": "^5.9.3",
     "feather-icons": "^4.29.0",
-    "jquery": "^3.6.3",
+    "jquery": "^3.6.4",
     "jquery-slimscroll": "^1.3.8",
     "prismjs": "^1.29.0"
-  },
-  "resolutions": {
-    "glob-parent": "^6.0.2"
   }
 }
