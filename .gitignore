@@ -3,4 +3,3 @@ dist/
 .temp/
 .DS_Store
 src/docs/demo-dark-light.html
-package-lock.json
