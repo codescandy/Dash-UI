@@ -1,11 +1,8 @@
 # [Dash UI - Bootstrap 5 Theme](https://codescandy.com/dashui/index.html) [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcodescandy%2FDash-UI)](https://twitter.com/intent/tweet?text=Dash%20-%20UI%20Bootstrap%205%20Theme&url=https%3A%2F%2Fgithub.com%2Fcodescandy%2FDash-UI&via=getcodescandy)
 
-
-
 <a href="https://codescandy.com/dashui/index.html">
  <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/hero-img.jpg" alt="Dash UI Bootstrap 5 Theme"/>
 </a>
-
 
 Dash-UI is a Bootstrap 5 Admin & Dashboard Theme. Dash UI Kit a free and open source components and templates kit fully coded with Bootstrap 5.
 
@@ -21,12 +18,12 @@ This product is built using the following widely used technologies:
 
 ## Table of Contents
 
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Technical Support or Questions](#technical-support-or-questions)
-
+- [Quick Start](#quick-start)
+- [Documentation](#documentation)
+- [File Structure](#file-structure)
+- [Browser Support](#browser-support)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Figma design file](#figma-design-file)
 
 ## Quick start
 
@@ -50,19 +47,19 @@ npm install
 ```
 gulp
 ```
+
 7. Generates a /dist directory with all the production files.
 
 ```
 gulp build
 ```
 
-
 ## Documentation
+
 The documentation for Dash UI is provide on our [website](https://codescandy.com/dashui/docs/gulp.html).
 
-
-
 ## File Structure
+
 Within the download you'll find the following directories and files:
 
 ```
@@ -105,26 +102,30 @@ Dash UI Bootstrap 5 Theme
 
 ```
 
-
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
 
-<img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/chrome.png" width="64" height="64"> <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/firefox.png" width="64" height="64"> <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/edge.png" width="64" height="64"> <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/safari.png" width="64" height="64"> <img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/opera.png" width="64" height="64">
-
+<img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/chrome.png" width="64" height="64">
+<img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/firefox.png" width="64" height="64">
+<img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/edge.png" width="64" height="64">
+<img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/safari.png" width="64" height="64">
+<img src="https://github.com/codescandy/Dash-UI/blob/main/src/assets/images/marketing/opera.png" width="64" height="64">
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](https://codescandy.com/contact-us/).
-[Support](https://github.com/codescandy/Dash-UI/discussions)
+If you have questions or need help integrating the product please [contact us](https://codescandy.com/contact-us/). [Support](https://github.com/codescandy/Dash-UI/discussions)
+
+## Figma Design File
+
+Ready to use [Figma File](https://www.figma.com/community/file/1259105309122518026/dash-ui-admin-dashboard-template).
 
 ## Upgrade to PRO
 
 Get more power with [Dash UI pro](https://dashui.codescandy.com/) featuring bunch of UI components, forms, tables, charts, pages, and icons.
 
-
-| Free Version        | [DashUI PRO]
-|---------------------|-------------------------------------------- |
-| 11 Demo Pages       | 100+ pages                                |
-| Includine Docs      | App pages                                           |
-| Libraries & Plugins | Dark / Light Mode                                            |
+| Free Version        | [DashUI PRO]      |
+| ------------------- | ----------------- |
+| 11 Demo Pages       | 100+ pages        |
+| Includine Docs      | App pages         |
+| Libraries & Plugins | Dark / Light Mode |
