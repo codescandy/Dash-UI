@@ -10,254 +10,528 @@
   <!-- Main wrapper -->
 
   @@include("../partials/doc-navbar.html")
-    <!-- Left sidebar -->
+  <!-- Left sidebar -->
 
-    <div class="pt-9">
-      <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-2 col-12 bg-white position-sticky">
-                @@include("../partials/doc-sidenav.html")
-            </div>
-            <div class="col-lg-8 col-12 p-8">
-              <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div class="mb-7" id="intro">
-                    <h1 class="mb-2">Borders</h1>
-                    <p class="mb-0 lead text-dark">Use border utilities to quickly style the border and border-radius of an element. Great for images, buttons, or any other element.
-                    </p>
-                  </div>
-                </div>
+  <div class="pt-9">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-12 bg-white position-sticky">
+          @@include("../partials/doc-sidenav.html")
+        </div>
+        <div class="col-lg-8 col-12 p-8">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="mb-7" id="intro">
+                <h1 class="mb-2">Borders</h1>
+                <p class="mb-0 lead text-dark">Use border utilities to quickly style the border and border-radius of an
+                  element. Great for images, buttons, or any other element.
+                </p>
               </div>
-              <!-- Additive -->
-              <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div class="mb-4">
-                    <h2>Border</h2>
-                    <p>Use border utilities to add or remove an element’s borders. Choose from all borders or one at a time.
-                    </p>
-                    <div class="mt-4 mb-4" id="additive">
-                      <h4>Additive</h4>
-                    </div>
-                  </div>
-                  <!-- Card -->
-                  <div class="card">
-                    <ul class="nav nav-line-bottom " id="pills-tab-additive" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link active" id="pills-additive-design-tab" data-bs-toggle="pill" href="#pills-additive-design" role="tab" aria-controls="pills-additive-design" aria-selected="true">Design</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="pills-additive-html-tab" data-bs-toggle="pill" href="#pills-additive-html" role="tab" aria-controls="pills-additive-html" aria-selected="false">HTML</a>
-                      </li>
-                    </ul>
-                    <!-- Tab content -->
-                    <div class="tab-content p-4" id="pills-tabContent-additive">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-additive-design" role="tabpanel" aria-labelledby="pills-additive-design-tab">
-                        <div class="docs-example-border-utils">
-                          <span class="border"></span>
-                          <span class="border-top"></span>
-                          <span class="border-end"></span>
-                          <span class="border-bottom"></span>
-                          <span class="border-start"></span>
-                        </div>
-                      </div>
-                      <div class="tab-pane tab-example-html fade " id="pills-additive-html" role="tabpanel" aria-labelledby="pills-additive-html-tab">
-                       
-                            <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-top<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-end<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-bottom<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-start<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span></code></pre>
-                                                
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Additive -->
-              <hr class="my-10">
-              <!-- Subtractive -->
-              <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div class="mb-4">
-                    <h4>Subtractive</h4>
-                  </div>
-                  <!-- Card -->
-                  <div class="card">
-                    <ul class="nav nav-line-bottom " id="pills-tab-subtractive" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link active" id="pills-subtractive-design-tab" data-bs-toggle="pill" href="#pills-subtractive-design" role="tab" aria-controls="pills-subtractive-design" aria-selected="true">Design</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="pills-subtractive-html-tab" data-bs-toggle="pill" href="#pills-subtractive-html" role="tab" aria-controls="pills-subtractive-html" aria-selected="false">HTML</a>
-                      </li>
-                    </ul>
-                    <!-- Tab content -->
-                    <div class="tab-content p-4" id="pills-tabContent-subtractive">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-subtractive-design" role="tabpanel" aria-labelledby="pills-subtractive-design-tab">
-                        <div class="docs-example-border-utils docs-example-border-utils-0">
-                          <span class="border-0"></span>
-                          <span class="border-top-0"></span>
-                          <span class="border-end-0"></span>
-                          <span class="border-bottom-0"></span>
-                          <span class="border-start-0"></span>
-                        </div>
-                      </div>
-                      <div class="tab-pane tab-example-html fade" id="pills-subtractive-html" role="tabpanel" aria-labelledby="pills-subtractive-html-tab">
-                       
-                            <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-top-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-end-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-bottom-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border-start-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span></code></pre>
-                                                
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Subtractive -->
-              <hr class="my-10">
-              <!-- Border color -->
-              <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div id="border-color" class="mb-4">
-                    <h2>Border color</h2>
-                    <p>Change the border color using utilities built on our theme colors.</p>
-                  </div>
-                  <!-- Card -->
-                  <div class="card">
-                    <ul class="nav nav-line-bottom " id="pills-tab-border-color" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link active" id="pills-border-color-design-tab" data-bs-toggle="pill" href="#pills-border-color-design" role="tab" aria-controls="pills-border-color-design" aria-selected="true">Design</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="pills-border-color-html-tab" data-bs-toggle="pill" href="#pills-border-color-html" role="tab" aria-controls="pills-border-color-html" aria-selected="false">HTML</a>
-                      </li>
-                    </ul>
-                    <!-- Tab content -->
-                    <div class="tab-content p-4" id="pills-tabContent-border-color">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-border-color-design" role="tabpanel" aria-labelledby="pills-border-color-design-tab">
-                        <div class="docs-example-border-utils ">
-                          <span class="border border-primary"></span>
-                          <span class="border border-secondary"></span>
-                          <span class="border border-success"></span>
-                          <span class="border border-danger"></span>
-                          <span class="border border-warning"></span>
-                          <span class="border border-info"></span>
-                          <span class="border border-light"></span>
-                          <span class="border border-dark"></span>
-                          <span class="border border-white"></span>
-                        </div>
-                      </div>
-                      <div class="tab-pane tab-example-html fade" id="pills-border-color-html" role="tabpanel" aria-labelledby="pills-border-color-html-tab">
-                       
-                            <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-primary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-secondary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-success<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-danger<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-warning<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-info<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-light<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-dark<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>border border-white<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span></code></pre>
-                                                
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Border color -->
-              <hr class="my-10">
-              <!-- Border-radius -->
-              <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div id="border-radius" class="mb-4">
-                    <h2>Border radius</h2>
-                    <p>Add classes to an element to easily round its corners.</p>
-                  </div>
-                  <!-- Card -->
-                  <div class="card">
-                    <ul class="nav nav-line-bottom " id="pills-tab-border-radius" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link active" id="pills-border-radius-design-tab" data-bs-toggle="pill" href="#pills-border-radius-design" role="tab" aria-controls="pills-border-radius-design" aria-selected="true">Design</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="pills-border-radius-html-tab" data-bs-toggle="pill" href="#pills-border-radius-html" role="tab" aria-controls="pills-border-radius-html" aria-selected="false">HTML</a>
-                      </li>
-                    </ul>
-                    <!-- Tab content -->
-                    <div class="tab-content p-4" id="pills-tabContent-border-radius">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-border-radius-design" role="tabpanel" aria-labelledby="pills-border-radius-design-tab">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="..." class="rounded">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-top">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-end">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-bottom">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-start">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-circle">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-pill">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-0">
-                      </div>
-                      <div class="tab-pane tab-example-html fade" id="pills-border-radius-html" role="tabpanel" aria-labelledby="pills-border-radius-html-tab">
-                       
-                            <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-top<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-end<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-bottom<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-start<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-pill<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>
-                                                
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Border-radius -->
-              <hr class="my-10">
-              <!-- Sizes -->
-              <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div id="sizes" class="mb-4">
-                    <h2>Sizes</h2>
-                    <p>Use <code class="highlighter-rouge">.rounded-3</code> or <code class="highlighter-rouge">.rounded-0</code> for larger or smaller border-radius.
-                    </p>
-                  </div>
-                  <!-- Card -->
-                  <div class="card">
-                    <ul class="nav nav-line-bottom " id="pills-tab-sizes" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link active" id="pills-sizes-design-tab" data-bs-toggle="pill" href="#pills-sizes-design" role="tab" aria-controls="pills-sizes-design" aria-selected="true">Design</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" id="pills-sizes-html-tab" data-bs-toggle="pill" href="#pills-sizes-html" role="tab" aria-controls="pills-sizes-html" aria-selected="false">HTML</a>
-                      </li>
-                    </ul>
-                    <!-- Tab content -->
-                    <div class="tab-content p-4" id="pills-tabContent-sizes">
-                      <div class="tab-pane tab-example-design fade show active" id="pills-sizes-design" role="tabpanel" aria-labelledby="pills-sizes-design-tab">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-0">
-                        <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-3">
-                      </div>
-                      <div class="tab-pane tab-example-html fade" id="pills-sizes-html" role="tabpanel" aria-labelledby="pills-sizes-html-tab">
-                       
-                            <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>rounded-3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>
-                                                
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Sizes -->
             </div>
           </div>
+          <!-- Additive -->
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="mb-4">
+                <h2>Border</h2>
+                <p>Use border utilities to add or remove an element’s borders. Choose from all borders or one at a time.
+                </p>
+                <div class="mt-4 mb-4" id="additive">
+                  <h4>Additive</h4>
+                </div>
+              </div>
+              <!-- Card -->
+              <div class="card">
+                <ul class="nav nav-line-bottom " id="pills-tab-additive" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-additive-design-tab" data-bs-toggle="pill"
+                      href="#pills-additive-design" role="tab" aria-controls="pills-additive-design"
+                      aria-selected="true">Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-additive-html-tab" data-bs-toggle="pill" href="#pills-additive-html"
+                      role="tab" aria-controls="pills-additive-html" aria-selected="false">HTML</a>
+                  </li>
+                </ul>
+                <!-- Tab content -->
+                <div class="tab-content p-4" id="pills-tabContent-additive">
+                  <div class="tab-pane tab-example-design fade show active" id="pills-additive-design" role="tabpanel"
+                    aria-labelledby="pills-additive-design-tab">
+                    <div class="docs-example-border-utils">
+                      <span class="border"></span>
+                      <span class="border-top"></span>
+                      <span class="border-end"></span>
+                      <span class="border-bottom"></span>
+                      <span class="border-start"></span>
+                    </div>
+                  </div>
+                  <div class="tab-pane tab-example-html fade " id="pills-additive-html" role="tabpanel"
+                    aria-labelledby="pills-additive-html-tab">
+
+                    <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border-top<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border-end<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>border-bottom<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>border-start<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span></code></pre>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Additive -->
+          <hr class="my-10">
+          <!-- Subtractive -->
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="mb-4">
+                <h4>Subtractive</h4>
+              </div>
+              <!-- Card -->
+              <div class="card">
+                <ul class="nav nav-line-bottom " id="pills-tab-subtractive" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-subtractive-design-tab" data-bs-toggle="pill"
+                      href="#pills-subtractive-design" role="tab" aria-controls="pills-subtractive-design"
+                      aria-selected="true">Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-subtractive-html-tab" data-bs-toggle="pill"
+                      href="#pills-subtractive-html" role="tab" aria-controls="pills-subtractive-html"
+                      aria-selected="false">HTML</a>
+                  </li>
+                </ul>
+                <!-- Tab content -->
+                <div class="tab-content p-4" id="pills-tabContent-subtractive">
+                  <div class="tab-pane tab-example-design fade show active" id="pills-subtractive-design"
+                    role="tabpanel" aria-labelledby="pills-subtractive-design-tab">
+                    <div class="docs-example-border-utils docs-example-border-utils-0">
+                      <span class="border-0"></span>
+                      <span class="border-top-0"></span>
+                      <span class="border-end-0"></span>
+                      <span class="border-bottom-0"></span>
+                      <span class="border-start-0"></span>
+                    </div>
+                  </div>
+                  <div class="tab-pane tab-example-html fade" id="pills-subtractive-html" role="tabpanel"
+                    aria-labelledby="pills-subtractive-html-tab">
+
+                    <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border-0<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>border-top-0<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>border-end-0<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>border-bottom-0<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>border-start-0<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span></code></pre>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Subtractive -->
+          <hr class="my-10">
+          <!-- Border color -->
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div id="border-color" class="mb-4">
+                <h2>Border color</h2>
+                <p>Change the border color using utilities built on our theme colors.</p>
+              </div>
+              <!-- Card -->
+              <div class="card">
+                <ul class="nav nav-line-bottom " id="pills-tab-border-color" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-border-color-design-tab" data-bs-toggle="pill"
+                      href="#pills-border-color-design" role="tab" aria-controls="pills-border-color-design"
+                      aria-selected="true">Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-border-color-html-tab" data-bs-toggle="pill"
+                      href="#pills-border-color-html" role="tab" aria-controls="pills-border-color-html"
+                      aria-selected="false">HTML</a>
+                  </li>
+                </ul>
+                <!-- Tab content -->
+                <div class="tab-content p-4" id="pills-tabContent-border-color">
+                  <div class="tab-pane tab-example-design fade show active" id="pills-border-color-design"
+                    role="tabpanel" aria-labelledby="pills-border-color-design-tab">
+                    <div class="docs-example-border-utils ">
+                      <span class="border border-primary"></span>
+                      <span class="border border-secondary"></span>
+                      <span class="border border-success"></span>
+                      <span class="border border-danger"></span>
+                      <span class="border border-warning"></span>
+                      <span class="border border-info"></span>
+                      <span class="border border-light"></span>
+                      <span class="border border-dark"></span>
+                      <span class="border border-white"></span>
+                    </div>
+                  </div>
+                  <div class="tab-pane tab-example-html fade" id="pills-border-color-html" role="tabpanel"
+                    aria-labelledby="pills-border-color-html-tab">
+
+                    <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-primary<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-secondary<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-success<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-danger<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-warning<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-info<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-light<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-dark<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>span</span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>border
+                            border-white<span class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span><span class="token tag"><span
+                            class="token tag"><span class="token punctuation">&lt;/</span>span</span><span
+                            class="token punctuation">&gt;</span></span></code></pre>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Border color -->
+          <hr class="my-10">
+          <!-- Border-radius -->
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div id="border-radius" class="mb-4">
+                <h2>Border radius</h2>
+                <p>Add classes to an element to easily round its corners.</p>
+              </div>
+              <!-- Card -->
+              <div class="card">
+                <ul class="nav nav-line-bottom " id="pills-tab-border-radius" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-border-radius-design-tab" data-bs-toggle="pill"
+                      href="#pills-border-radius-design" role="tab" aria-controls="pills-border-radius-design"
+                      aria-selected="true">Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-border-radius-html-tab" data-bs-toggle="pill"
+                      href="#pills-border-radius-html" role="tab" aria-controls="pills-border-radius-html"
+                      aria-selected="false">HTML</a>
+                  </li>
+                </ul>
+                <!-- Tab content -->
+                <div class="tab-content p-4" id="pills-tabContent-border-radius">
+                  <div class="tab-pane tab-example-design fade show active" id="pills-border-radius-design"
+                    role="tabpanel" aria-labelledby="pills-border-radius-design-tab">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="..." class="rounded">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-top">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-end">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-bottom">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-start">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-circle">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-pill">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-0">
+                  </div>
+                  <div class="tab-pane tab-example-html fade" id="pills-border-radius-html" role="tabpanel"
+                    aria-labelledby="pills-border-radius-html-tab">
+
+                    <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>rounded<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>rounded-top<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>rounded-end<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>rounded-bottom<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>rounded-start<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>rounded-circle<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span
+                              class="token punctuation">"</span>rounded-pill<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>rounded-0<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span></code></pre>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Border-radius -->
+          <hr class="my-10">
+          <!-- Sizes -->
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div id="sizes" class="mb-4">
+                <h2>Sizes</h2>
+                <p>Use <code class="highlighter-rouge">.rounded-3</code> or <code
+                    class="highlighter-rouge">.rounded-0</code> for larger or smaller border-radius.
+                </p>
+              </div>
+              <!-- Card -->
+              <div class="card">
+                <ul class="nav nav-line-bottom " id="pills-tab-sizes" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-sizes-design-tab" data-bs-toggle="pill"
+                      href="#pills-sizes-design" role="tab" aria-controls="pills-sizes-design"
+                      aria-selected="true">Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-sizes-html-tab" data-bs-toggle="pill" href="#pills-sizes-html"
+                      role="tab" aria-controls="pills-sizes-html" aria-selected="false">HTML</a>
+                  </li>
+                </ul>
+                <!-- Tab content -->
+                <div class="tab-content p-4" id="pills-tabContent-sizes">
+                  <div class="tab-pane tab-example-design fade show active" id="pills-sizes-design" role="tabpanel"
+                    aria-labelledby="pills-sizes-design-tab">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-0">
+                    <img src="../assets/images/placeholder/placeholder-img.jpg" alt="" class="rounded-3">
+                  </div>
+                  <div class="tab-pane tab-example-html fade" id="pills-sizes-html" role="tabpanel"
+                    aria-labelledby="pills-sizes-html-tab">
+
+                    <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>rounded-0<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span
+                              class="token punctuation">&lt;</span>img</span> <span
+                            class="token attr-name">src</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>...<span
+                              class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span
+                            class="token attr-value"><span class="token punctuation">=</span><span
+                              class="token punctuation">"</span>...<span class="token punctuation">"</span></span> <span
+                            class="token attr-name">class</span><span class="token attr-value"><span
+                              class="token punctuation">=</span><span class="token punctuation">"</span>rounded-3<span
+                              class="token punctuation">"</span></span><span
+                            class="token punctuation">&gt;</span></span></code></pre>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Sizes -->
         </div>
       </div>
     </div>
   </div>
   </div>
+  </div>
+  </div>
   <!-- Scripts -->
+  @@include("../partials/buy-template.html")
   @@include("../partials/scripts.html")
 </body>
 
