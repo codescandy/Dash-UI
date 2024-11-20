@@ -131,11 +131,11 @@ Get more power with [Dash UI pro](https://dashui.codescandy.com/) featuring bunc
 | Free Version            | [DashUI PRO]      |
 | ----------------------- | ----------------- |
 | ✔️ 1 Dashboard        | ✔️ 6 Dashboard      |
-| ✔️ 11 Demo Pages        | ✔️ 60+ pages        |
+| ✔️ 11 HTML Pages        | ✔️ 60+ HTML pages        |
 | ✔️ Includine Docs      |  ✔️  Documentation        |
 | ✔️ 4 Plugins           |  ✔️ 10+ Plugins|
 | ✔️ Source Files        |  ✔️ Source Files  |
 | ❌ Dark Mode  | ✔️ Dark Mode |
-| ❌ Layout Options | ✔️ Layout Options |
-| ❌ Prioraty Support | ✔️ Prioraty Support |
+| ❌ Layout Options | ✔️ Layout Variations |
+| ❌ Priority Support | ✔️ Priority Support |
 | - | ✔️ Free Update |
