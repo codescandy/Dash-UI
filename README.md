@@ -128,15 +128,15 @@ Ready to use [Figma File](https://www.figma.com/community/file/12591053091225180
 
 Get more power with [Dash UI pro](https://dashui.codescandy.com/) featuring bunch of UI components, forms, tables, charts, pages, and icons.
 
-| Free Version            | DashUI PRO      |
-| ----------------------- | ----------------- |
-| ✔️ 1 Dashboard        | ✔️ 6 Dashboard      |
-| ✔️ 11 HTML Pages        | ✔️ 60+ HTML pages        |
-| ✔️ Includine Docs      |  ✔️  Documentation        |
-| ✔️ 4 Plugins           |  ✔️ 10+ Plugins|
-| ✔️ Source Files        |  ✔️ Source Files  |
-| ❌ Dark Mode  | ✔️ Dark Mode |
-| ❌ Layout Options | ✔️ Layout Variations |
-| ❌ Priority Support | ✔️ Priority Support |
-| - | ✔️ Free Update |
-| [Free Download](https://dashui.codescandy.com/bootstrap-admin-dashboard-html-template.html)  | [Get Dash UI](https://dashui.codescandy.com/bootstrap-admin-dashboard-html-template.html) |
+| Free Version                                                                                  | DashUI PRO                                                                                |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| ✔️ 1 Dashboard                                                                                | ✔️ 6 Dashboard                                                                            |
+| ✔️ 11 HTML Pages                                                                              | ✔️ 60+ HTML pages                                                                         |
+| ✔️ Includine Docs                                                                             | ✔️ Documentation                                                                          |
+| ✔️ 4 Plugins                                                                                  | ✔️ 10+ Plugins                                                                            |
+| ✔️ Source Files                                                                               | ✔️ Source Files                                                                           |
+| ❌ Dark Mode                                                                                  | ✔️ Dark Mode                                                                              |
+| ❌ Layout Options                                                                             | ✔️ Layout Variations                                                                      |
+| ❌ Priority Support                                                                           | ✔️ Priority Support                                                                       |
+| -                                                                                             | ✔️ Free Update                                                                            |
+| [Free Download](https://dashui.codescandy.com/free-bootstrap-5-admin-dashboard-template.html) | [Get Dash UI](https://dashui.codescandy.com/bootstrap-admin-dashboard-html-template.html) |
