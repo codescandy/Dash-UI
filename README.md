@@ -54,6 +54,13 @@ gulp
 gulp build
 ```
 
+## Useful Free Links
+
+- [React Template](https://github.com/codescandy/dash-ui-react-vitejs-typescript)
+- [Next.js Template](https://github.com/codescandy/dashui-free-nextjs-admin-template)
+- [Nuxt.js Template](https://github.com/codescandy/dashui-nuxt-starter-admin-template/)
+- [Tailwind Template](https://github.com/codescandy/dashui-tailwindcss)
+
 ## Documentation
 
 The documentation for Dash UI is provide on our [website](https://codescandy.com/dashui/docs/gulp.html).
