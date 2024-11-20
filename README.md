@@ -128,8 +128,14 @@ Ready to use [Figma File](https://www.figma.com/community/file/12591053091225180
 
 Get more power with [Dash UI pro](https://dashui.codescandy.com/) featuring bunch of UI components, forms, tables, charts, pages, and icons.
 
-| Free Version        | [DashUI PRO]      |
-| ------------------- | ----------------- |
-| 11 Demo Pages       | 100+ pages        |
-| Includine Docs      | App pages         |
-| Libraries & Plugins | Dark / Light Mode |
+| Free Version            | [DashUI PRO]      |
+| ----------------------- | ----------------- |
+| ✔️ 1 Dashboard        | ✔️ 6 Dashboard      |
+| ✔️ 11 Demo Pages        | ✔️ 60+ pages        |
+| ✔️ Includine Docs      |  ✔️  Documentation        |
+| ✔️ 4 Plugins           |  ✔️ 10+ Plugins|
+| ✔️ Source Files        |  ✔️ Source Files  |
+| ❌ Dark Mode  | ✔️ Dark Mode |
+| ❌ Layout Options | ✔️ Layout Options |
+| ❌ Prioraty Support | ✔️ Prioraty Support |
+| - | ✔️ Free Update |
